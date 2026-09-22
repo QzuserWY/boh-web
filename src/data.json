@@ -1,0 +1,1640 @@
+{
+  "branches": [
+    "司辰学",
+    "盗火术",
+    "照明术",
+    "静默术",
+    "夜游术",
+    "蠕虫学",
+    "丛林学",
+    "保存术",
+    "鸟鸣学"
+  ],
+  "souls": {
+    "刚毅": "#FFC000",
+    "明识": "#FFFF00",
+    "铭晓": "#C78FFF",
+    "悲恸": "#8FAADC",
+    "灵躯": "#00B0F0",
+    "黯晦": "#7030A0",
+    "辩闻": "#D60093",
+    "健康": "#FF6D6D",
+    "脉律": "#FF99CC"
+  },
+  "skills": [
+    {
+      "id": "富奇诺语",
+      "name": "富奇诺语",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "静默术",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "盗火术",
+        "rank": 1
+      },
+      "sourceCell": "C2",
+      "sourceSoul": "铭晓",
+      "initialAttuned": false
+    },
+    {
+      "id": "精炼与擢升",
+      "name": "精炼与擢升",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "明识"
+        },
+        {
+          "branch": "照明术",
+          "soul": "刚毅"
+        }
+      ],
+      "original": {
+        "branch": "照明术",
+        "rank": 1
+      },
+      "sourceCell": "D2",
+      "sourceSoul": "刚毅",
+      "initialAttuned": false
+    },
+    {
+      "id": "厄里卡帕奥语",
+      "name": "厄里卡帕奥语",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "照明术",
+          "soul": "明识"
+        },
+        {
+          "branch": "静默术",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "静默术",
+        "rank": 1
+      },
+      "sourceCell": "E2",
+      "sourceSoul": "悲恸",
+      "initialAttuned": false
+    },
+    {
+      "id": "希克索斯语",
+      "name": "希克索斯语",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "夜游术",
+          "soul": "辩闻"
+        },
+        {
+          "branch": "蠕虫学",
+          "soul": "黯晦"
+        }
+      ],
+      "original": {
+        "branch": "夜游术",
+        "rank": 1
+      },
+      "sourceCell": "F2",
+      "sourceSoul": "辩闻",
+      "initialAttuned": false
+    },
+    {
+      "id": "毛皮与羽翎",
+      "name": "毛皮与羽翎",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "夜游术",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "丛林学",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "丛林学",
+        "rank": 1
+      },
+      "sourceCell": "H2",
+      "sourceSoul": "健康",
+      "initialAttuned": false
+    },
+    {
+      "id": "解踪语",
+      "name": "解踪语",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "照明术",
+          "soul": "明识"
+        },
+        {
+          "branch": "保存术",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "保存术",
+        "rank": 1
+      },
+      "sourceCell": "I2",
+      "sourceSoul": "脉律",
+      "initialAttuned": false
+    },
+    {
+      "id": "拉姆桑德语",
+      "name": "拉姆桑德语",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "保存术",
+          "soul": "脉律"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "鸟鸣学",
+        "rank": 1
+      },
+      "sourceCell": "J2",
+      "sourceSoul": "悲恸",
+      "initialAttuned": false
+    },
+    {
+      "id": "萨巴佐因语",
+      "name": "萨巴佐因语",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "司辰学",
+        "rank": 2
+      },
+      "sourceCell": "B3",
+      "sourceSoul": "灵躯",
+      "initialAttuned": false
+    },
+    {
+      "id": "渊深曼达安语",
+      "name": "渊深曼达安语",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "刚毅"
+        },
+        {
+          "branch": "盗火术",
+          "soul": "明识"
+        }
+      ],
+      "original": {
+        "branch": "盗火术",
+        "rank": 2
+      },
+      "sourceCell": "C3",
+      "sourceSoul": "明识",
+      "initialAttuned": false
+    },
+    {
+      "id": "阙前格律",
+      "name": "阙前格律",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "照明术",
+          "soul": "明识"
+        }
+      ],
+      "original": {
+        "branch": "照明术",
+        "rank": 2
+      },
+      "sourceCell": "D3",
+      "sourceSoul": "明识",
+      "initialAttuned": false
+    },
+    {
+      "id": "锋锐",
+      "name": "锋锐",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "静默术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "蠕虫学",
+          "soul": "辩闻"
+        }
+      ],
+      "original": {
+        "branch": "静默术",
+        "rank": 2
+      },
+      "sourceCell": "E3",
+      "sourceSoul": "铭晓",
+      "initialAttuned": false
+    },
+    {
+      "id": "伐诃语",
+      "name": "伐诃语",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "夜游术",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "夜游术",
+        "rank": 2
+      },
+      "sourceCell": "F3",
+      "sourceSoul": "灵躯",
+      "initialAttuned": false
+    },
+    {
+      "id": "夜魄语",
+      "name": "夜魄语",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "蠕虫学",
+          "soul": "黯晦"
+        },
+        {
+          "branch": "丛林学",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "蠕虫学",
+        "rank": 2
+      },
+      "sourceCell": "G3",
+      "sourceSoul": "黯晦",
+      "initialAttuned": false
+    },
+    {
+      "id": "诱惑与消殒",
+      "name": "诱惑与消殒",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "刚毅"
+        },
+        {
+          "branch": "丛林学",
+          "soul": "黯晦"
+        }
+      ],
+      "original": {
+        "branch": "丛林学",
+        "rank": 2
+      },
+      "sourceCell": "H3",
+      "sourceSoul": "黯晦",
+      "initialAttuned": false
+    },
+    {
+      "id": "三重誓之仪",
+      "name": "三重誓之仪",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "丛林学",
+          "soul": "黯晦"
+        },
+        {
+          "branch": "保存术",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "保存术",
+        "rank": 2
+      },
+      "sourceCell": "I3",
+      "sourceSoul": "健康",
+      "initialAttuned": false
+    },
+    {
+      "id": "大海的故事",
+      "name": "大海的故事",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "夜游术",
+          "soul": "辩闻"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "鸟鸣学",
+        "rank": 2
+      },
+      "sourceCell": "J3",
+      "sourceSoul": "脉律",
+      "initialAttuned": false
+    },
+    {
+      "id": "洪钟与铜器",
+      "name": "洪钟与铜器",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "刚毅"
+        },
+        {
+          "branch": "盗火术",
+          "soul": "铭晓"
+        }
+      ],
+      "original": {
+        "branch": "司辰学",
+        "rank": 3
+      },
+      "sourceCell": "B4",
+      "sourceSoul": "刚毅",
+      "initialAttuned": false
+    },
+    {
+      "id": "赫沃尔语",
+      "name": "赫沃尔语",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "丛林学",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "盗火术",
+        "rank": 3
+      },
+      "sourceCell": "C4",
+      "sourceSoul": "铭晓",
+      "initialAttuned": false
+    },
+    {
+      "id": "玻璃与锻光",
+      "name": "玻璃与锻光",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "明识"
+        },
+        {
+          "branch": "照明术",
+          "soul": "刚毅"
+        }
+      ],
+      "original": {
+        "branch": "照明术",
+        "rank": 3
+      },
+      "sourceCell": "D4",
+      "sourceSoul": "刚毅",
+      "initialAttuned": false
+    },
+    {
+      "id": "镰刀与日蚀",
+      "name": "镰刀与日蚀",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "夜游术",
+          "soul": "辩闻"
+        },
+        {
+          "branch": "保存术",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "夜游术",
+        "rank": 3
+      },
+      "sourceCell": "F4",
+      "sourceSoul": "辩闻",
+      "initialAttuned": false
+    },
+    {
+      "id": "兽角与象牙",
+      "name": "兽角与象牙",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "蠕虫学",
+          "soul": "辩闻"
+        },
+        {
+          "branch": "丛林学",
+          "soul": "黯晦"
+        }
+      ],
+      "original": {
+        "branch": "蠕虫学",
+        "rank": 3
+      },
+      "sourceCell": "G4",
+      "sourceSoul": "辩闻",
+      "initialAttuned": false
+    },
+    {
+      "id": "丘陵与孔窍",
+      "name": "丘陵与孔窍",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "保存术",
+          "soul": "健康"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "保存术",
+        "rank": 3
+      },
+      "sourceCell": "I4",
+      "sourceSoul": "健康",
+      "initialAttuned": false
+    },
+    {
+      "id": "弦乐与歌谣",
+      "name": "弦乐与歌谣",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "夜游术",
+          "soul": "辩闻"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "鸟鸣学",
+        "rank": 3
+      },
+      "sourceCell": "J4",
+      "sourceSoul": "脉律",
+      "initialAttuned": false
+    },
+    {
+      "id": "无敌太阳典仪",
+      "name": "无敌太阳典仪",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "照明术",
+          "soul": "明识"
+        }
+      ],
+      "original": {
+        "branch": "司辰学",
+        "rank": 4
+      },
+      "sourceCell": "B5",
+      "sourceSoul": "灵躯",
+      "initialAttuned": false
+    },
+    {
+      "id": "焰篆体",
+      "name": "焰篆体",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "照明术",
+          "soul": "刚毅"
+        }
+      ],
+      "original": {
+        "branch": "照明术",
+        "rank": 4
+      },
+      "sourceCell": "D5",
+      "sourceSoul": "刚毅",
+      "initialAttuned": false
+    },
+    {
+      "id": "力量之墨",
+      "name": "力量之墨",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "刚毅"
+        },
+        {
+          "branch": "静默术",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "静默术",
+        "rank": 4
+      },
+      "sourceCell": "E5",
+      "sourceSoul": "悲恸",
+      "initialAttuned": false
+    },
+    {
+      "id": "虬蟠与裂隙",
+      "name": "虬蟠与裂缝",
+      "aliases": [
+        "虬蟠与裂隙"
+      ],
+      "options": [
+        {
+          "branch": "夜游术",
+          "soul": "辩闻"
+        },
+        {
+          "branch": "蠕虫学",
+          "soul": "黯晦"
+        }
+      ],
+      "original": {
+        "branch": "夜游术",
+        "rank": 4
+      },
+      "sourceCell": "F5",
+      "sourceSoul": "辩闻",
+      "initialAttuned": false
+    },
+    {
+      "id": "阈限之敕令",
+      "name": "阈限之敕令",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "夜游术",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "蠕虫学",
+          "soul": "黯晦"
+        }
+      ],
+      "original": {
+        "branch": "蠕虫学",
+        "rank": 4
+      },
+      "sourceCell": "G5",
+      "sourceSoul": "黯晦",
+      "initialAttuned": false
+    },
+    {
+      "id": "兰花与迷药",
+      "name": "兰花与迷药",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "蠕虫学",
+          "soul": "辩闻"
+        },
+        {
+          "branch": "丛林学",
+          "soul": "黯晦"
+        }
+      ],
+      "original": {
+        "branch": "丛林学",
+        "rank": 4
+      },
+      "sourceCell": "H5",
+      "sourceSoul": "黯晦",
+      "initialAttuned": false
+    },
+    {
+      "id": "岩石的故事",
+      "name": "岩石的故事",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "保存术",
+          "soul": "脉律"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "保存术",
+        "rank": 4
+      },
+      "sourceCell": "I5",
+      "sourceSoul": "脉律",
+      "initialAttuned": false
+    },
+    {
+      "id": "窥天术",
+      "name": "窥天术",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "静默术",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "司辰学",
+        "rank": 5
+      },
+      "sourceCell": "B6",
+      "sourceSoul": "灵躯",
+      "initialAttuned": false
+    },
+    {
+      "id": "玻璃吹制与容器制造",
+      "name": "玻璃吹制与容器制造",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "明识"
+        },
+        {
+          "branch": "静默术",
+          "soul": "铭晓"
+        }
+      ],
+      "original": {
+        "branch": "盗火术",
+        "rank": 5
+      },
+      "sourceCell": "C6",
+      "sourceSoul": "明识",
+      "initialAttuned": false
+    },
+    {
+      "id": "锤砧的戒律",
+      "name": "锤砧的戒律",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "照明术",
+          "soul": "刚毅"
+        },
+        {
+          "branch": "夜游术",
+          "soul": "辩闻"
+        }
+      ],
+      "original": {
+        "branch": "照明术",
+        "rank": 5
+      },
+      "sourceCell": "D6",
+      "sourceSoul": "刚毅",
+      "initialAttuned": false
+    },
+    {
+      "id": "景象与感知",
+      "name": "景象与感知",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "静默术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "夜游术",
+          "soul": "灵躯"
+        }
+      ],
+      "original": {
+        "branch": "静默术",
+        "rank": 5
+      },
+      "sourceCell": "E6",
+      "sourceSoul": "铭晓",
+      "initialAttuned": false
+    },
+    {
+      "id": "道途与朝圣",
+      "name": "道途与朝圣",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "夜游术",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "夜游术",
+        "rank": 5
+      },
+      "sourceCell": "F6",
+      "sourceSoul": "灵躯",
+      "initialAttuned": false
+    },
+    {
+      "id": "溶解与离析",
+      "name": "溶解与离析",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "蠕虫学",
+          "soul": "辩闻"
+        }
+      ],
+      "original": {
+        "branch": "蠕虫学",
+        "rank": 5
+      },
+      "sourceCell": "G6",
+      "sourceSoul": "辩闻",
+      "initialAttuned": false
+    },
+    {
+      "id": "光明果悦音",
+      "name": "光明果悦音",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "照明术",
+          "soul": "刚毅"
+        },
+        {
+          "branch": "丛林学",
+          "soul": "黯晦"
+        }
+      ],
+      "original": {
+        "branch": "丛林学",
+        "rank": 5
+      },
+      "sourceCell": "H6",
+      "sourceSoul": "黯晦",
+      "initialAttuned": false
+    },
+    {
+      "id": "手术与放血",
+      "name": "手术与放血",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "静默术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "保存术",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "保存术",
+        "rank": 5
+      },
+      "sourceCell": "I6",
+      "sourceSoul": "脉律",
+      "initialAttuned": false
+    },
+    {
+      "id": "狼的故事",
+      "name": "狼的故事",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "蠕虫学",
+          "soul": "黯晦"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "鸟鸣学",
+        "rank": 5
+      },
+      "sourceCell": "J6",
+      "sourceSoul": "悲恸",
+      "initialAttuned": false
+    },
+    {
+      "id": "伟大符印与伟大伤疤",
+      "name": "伟大符印与伟大伤疤",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "静默术",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "司辰学",
+        "rank": 6
+      },
+      "sourceCell": "B7",
+      "sourceSoul": "灵躯",
+      "initialAttuned": false
+    },
+    {
+      "id": "香料与滋味",
+      "name": "香料与滋味",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "丛林学",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "盗火术",
+        "rank": 6
+      },
+      "sourceCell": "C7",
+      "sourceSoul": "铭晓",
+      "initialAttuned": false
+    },
+    {
+      "id": "群蛇与毒液",
+      "name": "群蛇与毒液",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "静默术",
+          "soul": "悲恸"
+        },
+        {
+          "branch": "蠕虫学",
+          "soul": "辩闻"
+        }
+      ],
+      "original": {
+        "branch": "静默术",
+        "rank": 6
+      },
+      "sourceCell": "E7",
+      "sourceSoul": "悲恸",
+      "initialAttuned": false
+    },
+    {
+      "id": "腐化与煅烧",
+      "name": "腐化与煅烧",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "蠕虫学",
+          "soul": "黯晦"
+        }
+      ],
+      "original": {
+        "branch": "蠕虫学",
+        "rank": 6
+      },
+      "sourceCell": "G7",
+      "sourceSoul": "黯晦",
+      "initialAttuned": false
+    },
+    {
+      "id": "复苏与羽化",
+      "name": "复苏与羽化",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "丛林学",
+          "soul": "健康"
+        },
+        {
+          "branch": "保存术",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "丛林学",
+        "rank": 6
+      },
+      "sourceCell": "H7",
+      "sourceSoul": "健康",
+      "initialAttuned": false
+    },
+    {
+      "id": "根系之仪",
+      "name": "根系之仪",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "丛林学",
+          "soul": "黯晦"
+        },
+        {
+          "branch": "保存术",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "保存术",
+        "rank": 6
+      },
+      "sourceCell": "I7",
+      "sourceSoul": "健康",
+      "initialAttuned": false
+    },
+    {
+      "id": "沙的故事",
+      "name": "沙的故事",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "蠕虫学",
+          "soul": "辩闻"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "鸟鸣学",
+        "rank": 6
+      },
+      "sourceCell": "J7",
+      "sourceSoul": "悲恸",
+      "initialAttuned": false
+    },
+    {
+      "id": "收容之墨",
+      "name": "收容之墨",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "刚毅"
+        },
+        {
+          "branch": "保存术",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "司辰学",
+        "rank": 7
+      },
+      "sourceCell": "B8",
+      "sourceSoul": "刚毅",
+      "initialAttuned": false
+    },
+    {
+      "id": "雕珀与琢石",
+      "name": "雕珀与琢石",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "盗火术",
+          "soul": "明识"
+        }
+      ],
+      "original": {
+        "branch": "盗火术",
+        "rank": 7
+      },
+      "sourceCell": "C8",
+      "sourceSoul": "明识",
+      "initialAttuned": false
+    },
+    {
+      "id": "弧月的倒影",
+      "name": "弧月的倒影",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "照明术",
+          "soul": "明识"
+        },
+        {
+          "branch": "保存术",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "照明术",
+        "rank": 7
+      },
+      "sourceCell": "D8",
+      "sourceSoul": "明识",
+      "initialAttuned": false
+    },
+    {
+      "id": "启示之墨",
+      "name": "启示之墨",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "明识"
+        },
+        {
+          "branch": "静默术",
+          "soul": "铭晓"
+        }
+      ],
+      "original": {
+        "branch": "静默术",
+        "rank": 7
+      },
+      "sourceCell": "E8",
+      "sourceSoul": "铭晓",
+      "initialAttuned": false
+    },
+    {
+      "id": "珍珠与浪潮",
+      "name": "珍珠与浪潮",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "夜游术",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "丛林学",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "夜游术",
+        "rank": 7
+      },
+      "sourceCell": "F8",
+      "sourceSoul": "灵躯",
+      "initialAttuned": false
+    },
+    {
+      "id": "残破十字路",
+      "name": "残破十字路",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "照明术",
+          "soul": "明识"
+        },
+        {
+          "branch": "蠕虫学",
+          "soul": "辩闻"
+        }
+      ],
+      "original": {
+        "branch": "蠕虫学",
+        "rank": 7
+      },
+      "sourceCell": "G8",
+      "sourceSoul": "辩闻",
+      "initialAttuned": false
+    },
+    {
+      "id": "鼓点与舞步",
+      "name": "鼓点与舞步",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "刚毅"
+        },
+        {
+          "branch": "丛林学",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "丛林学",
+        "rank": 7
+      },
+      "sourceCell": "H8",
+      "sourceSoul": "健康",
+      "initialAttuned": false
+    },
+    {
+      "id": "无侵之敕令",
+      "name": "无侵之敕令",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "刚毅"
+        },
+        {
+          "branch": "保存术",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "保存术",
+        "rank": 7
+      },
+      "sourceCell": "I8",
+      "sourceSoul": "脉律",
+      "initialAttuned": false
+    },
+    {
+      "id": "天空的故事",
+      "name": "天空的故事",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "鸟鸣学",
+        "rank": 7
+      },
+      "sourceCell": "J8",
+      "sourceSoul": "悲恸",
+      "initialAttuned": false
+    },
+    {
+      "id": "利米亚典仪",
+      "name": "利米亚典仪",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "刚毅"
+        },
+        {
+          "branch": "静默术",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "司辰学",
+        "rank": 8
+      },
+      "sourceCell": "B9",
+      "sourceSoul": "刚毅",
+      "initialAttuned": false
+    },
+    {
+      "id": "缝合与装订",
+      "name": "缝合与装订",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "保存术",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "盗火术",
+        "rank": 8
+      },
+      "sourceCell": "C9",
+      "sourceSoul": "铭晓",
+      "initialAttuned": false
+    },
+    {
+      "id": "伤疤的戒律",
+      "name": "伤疤的戒律",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "照明术",
+          "soul": "明识"
+        },
+        {
+          "branch": "静默术",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "照明术",
+        "rank": 8
+      },
+      "sourceCell": "D9",
+      "sourceSoul": "明识",
+      "initialAttuned": false
+    },
+    {
+      "id": "疫疠之秘",
+      "name": "疫疠之秘",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "静默术",
+          "soul": "悲恸"
+        },
+        {
+          "branch": "保存术",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "静默术",
+        "rank": 8
+      },
+      "sourceCell": "E9",
+      "sourceSoul": "悲恸",
+      "initialAttuned": false
+    },
+    {
+      "id": "门扉与墙垣",
+      "name": "门扉与墙垣",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "夜游术",
+          "soul": "辩闻"
+        }
+      ],
+      "original": {
+        "branch": "夜游术",
+        "rank": 8
+      },
+      "sourceCell": "F9",
+      "sourceSoul": "辩闻",
+      "initialAttuned": false
+    },
+    {
+      "id": "音律与铭记",
+      "name": "音律与铭记",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "蠕虫学",
+          "soul": "黯晦"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "蠕虫学",
+        "rank": 8
+      },
+      "sourceCell": "G9",
+      "sourceSoul": "黯晦",
+      "initialAttuned": false
+    },
+    {
+      "id": "昆虫与花蜜",
+      "name": "昆虫与花蜜",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "夜游术",
+          "soul": "灵躯"
+        },
+        {
+          "branch": "丛林学",
+          "soul": "黯晦"
+        }
+      ],
+      "original": {
+        "branch": "丛林学",
+        "rank": 8
+      },
+      "sourceCell": "H9",
+      "sourceSoul": "黯晦",
+      "initialAttuned": false
+    },
+    {
+      "id": "淬火与熄焰",
+      "name": "淬火与熄焰",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "静默术",
+          "soul": "悲恸"
+        },
+        {
+          "branch": "保存术",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "保存术",
+        "rank": 8
+      },
+      "sourceCell": "I9",
+      "sourceSoul": "健康",
+      "initialAttuned": false
+    },
+    {
+      "id": "覆画残迹与古老前身",
+      "name": "覆画残迹与古老前身",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "蠕虫学",
+          "soul": "黯晦"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "鸟鸣学",
+        "rank": 8
+      },
+      "sourceCell": "J9",
+      "sourceSoul": "脉律",
+      "initialAttuned": false
+    },
+    {
+      "id": "武力之敕令",
+      "name": "武力之敕令",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "司辰学",
+          "soul": "刚毅"
+        },
+        {
+          "branch": "照明术",
+          "soul": "明识"
+        }
+      ],
+      "original": {
+        "branch": "司辰学",
+        "rank": 9
+      },
+      "sourceCell": "B10",
+      "sourceSoul": "刚毅",
+      "initialAttuned": false
+    },
+    {
+      "id": "嬗变与解放",
+      "name": "嬗变与解放",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "明识"
+        },
+        {
+          "branch": "照明术",
+          "soul": "刚毅"
+        }
+      ],
+      "original": {
+        "branch": "盗火术",
+        "rank": 9
+      },
+      "sourceCell": "C10",
+      "sourceSoul": "明识",
+      "initialAttuned": false
+    },
+    {
+      "id": "曙光的静观",
+      "name": "曙光的静观",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "照明术",
+          "soul": "明识"
+        },
+        {
+          "branch": "夜游术",
+          "soul": "灵躯"
+        }
+      ],
+      "original": {
+        "branch": "照明术",
+        "rank": 9
+      },
+      "sourceCell": "D10",
+      "sourceSoul": "明识",
+      "initialAttuned": false
+    },
+    {
+      "id": "白雪的故事",
+      "name": "白雪的故事",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "静默术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "悲恸"
+        }
+      ],
+      "original": {
+        "branch": "静默术",
+        "rank": 9
+      },
+      "sourceCell": "E10",
+      "sourceSoul": "铭晓",
+      "initialAttuned": false
+    },
+    {
+      "id": "守夜人的悖论",
+      "name": "守夜人的悖论",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "照明术",
+          "soul": "明识"
+        },
+        {
+          "branch": "夜游术",
+          "soul": "灵躯"
+        }
+      ],
+      "original": {
+        "branch": "夜游术",
+        "rank": 9
+      },
+      "sourceCell": "F10",
+      "sourceSoul": "灵躯",
+      "initialAttuned": false
+    },
+    {
+      "id": "锁簧与发条",
+      "name": "锁簧与发条",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "盗火术",
+          "soul": "铭晓"
+        },
+        {
+          "branch": "蠕虫学",
+          "soul": "辩闻"
+        }
+      ],
+      "original": {
+        "branch": "蠕虫学",
+        "rank": 9
+      },
+      "sourceCell": "G10",
+      "sourceSoul": "辩闻",
+      "initialAttuned": false
+    },
+    {
+      "id": "缝纫与编织",
+      "name": "缝纫与编织",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "丛林学",
+          "soul": "健康"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "丛林学",
+        "rank": 9
+      },
+      "sourceCell": "H10",
+      "sourceSoul": "健康",
+      "initialAttuned": false
+    },
+    {
+      "id": "草药与药汤",
+      "name": "草药与药汤",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "丛林学",
+          "soul": "黯晦"
+        },
+        {
+          "branch": "保存术",
+          "soul": "健康"
+        }
+      ],
+      "original": {
+        "branch": "保存术",
+        "rank": 9
+      },
+      "sourceCell": "I10",
+      "sourceSoul": "健康",
+      "initialAttuned": false
+    },
+    {
+      "id": "叶片与棘刺",
+      "name": "叶片与棘刺",
+      "aliases": [],
+      "options": [
+        {
+          "branch": "丛林学",
+          "soul": "健康"
+        },
+        {
+          "branch": "鸟鸣学",
+          "soul": "脉律"
+        }
+      ],
+      "original": {
+        "branch": "鸟鸣学",
+        "rank": 9
+      },
+      "sourceCell": "J10",
+      "sourceSoul": "脉律",
+      "initialAttuned": false
+    }
+  ],
+  "source": {
+    "workbook": "司辰之书.xlsx",
+    "range": "上树!B2:J10",
+    "wiki": "https://boh.huijiwiki.com/wiki/列表/魂质获得",
+    "verifiedAt": "2026-09-22"
+  }
+}
