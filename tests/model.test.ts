@@ -10,14 +10,17 @@ test('same-branch swap moves both skills but does not change actual progress',()
  const target={branch:'鸟鸣学',rank:1};const result=previewMove(s,'天空的故事',target);assert.equal(result.ok,true);assert.equal(result.displaced,'拉姆桑德语');
  const n=moveSkill(s,'天空的故事',target);assert.equal(n.plan['天空的故事'].rank,1);assert.equal(n.plan['拉姆桑德语'].rank,7);assert.equal(n.progress['天空的故事'].actual,null);assert.equal(s.plan['天空的故事'].rank,7);assert.doesNotThrow(()=>validateState(n));
 });
-test('cross-branch incompatible displaced skill is blocked',()=>{
- const s=initialState();const r=previewMove(s,'天空的故事',{branch:'司辰学',rank:3});assert.equal(r.ok,false);assert.match(r.reason,/洪钟与铜器/);
+test('skill can only be planned on its single excel branch',()=>{
+ const s=initialState();const off=previewMove(s,'天空的故事',{branch:'司辰学',rank:1});assert.equal(off.ok,false);assert.match(off.reason,/Excel 安排的「鸟鸣学」/);
+ const other=previewMove(s,'天空的故事',{branch:'司辰学',rank:2});assert.equal(other.ok,false);assert.match(other.reason,/鸟鸣学/);
+ s.plan['天空的故事']={branch:'司辰学',rank:1};s.progress['天空的故事'].level=1;s.unlocked.push('司辰学:1');assert.throws(()=>commitSkill(s,'天空的故事'),/鸟鸣学/);
 });
-test('compatible cross-branch swap recalculates both soul rewards',()=>{
- const s=initialState();const n=moveSkill(s,'天空的故事',{branch:'司辰学',rank:2});assert.equal(soulFor('天空的故事',n.plan['天空的故事'].branch),'灵躯');assert.equal(soulFor('萨巴佐因语',n.plan['萨巴佐因语'].branch),'悲恸');assert.doesNotThrow(()=>validateState(n));
+test('displaced skill cannot leave its excel branch',()=>{
+ const s=initialState();s.plan['萨巴佐因语']={branch:'鸟鸣学',rank:4};const r=previewMove(s,'天空的故事',{branch:'鸟鸣学',rank:4});assert.equal(r.ok,false);assert.match(r.reason,/萨巴佐因语/);
 });
-test('moving into empty slot vacates previous slot',()=>{
- const s=initialState();const n=moveSkill(s,'天空的故事',{branch:'司辰学',rank:1});assert.equal(previewMove(s,'天空的故事',{branch:'司辰学',rank:1}).displaced,null);assert.equal(Object.values(n.plan).filter(x=>slotKey(x)==='鸟鸣学:7').length,0);
+test('moving into an empty slot on the excel branch vacates the previous rank',()=>{
+ const s=initialState();const preview=previewMove(s,'天空的故事',{branch:'鸟鸣学',rank:4});assert.equal(preview.ok,true);assert.equal(preview.displaced,null);
+ const n=moveSkill(s,'天空的故事',{branch:'鸟鸣学',rank:4});assert.equal(n.plan['天空的故事'].branch,'鸟鸣学');assert.equal(n.plan['天空的故事'].rank,4);assert.equal(Object.values(n.plan).filter(x=>slotKey(x)==='鸟鸣学:7').length,0);assert.equal(soulFor('天空的故事',n.plan['天空的故事'].branch),'悲恸');assert.doesNotThrow(()=>validateState(n));
 });
 test('commit requires acquisition, level and explicit unlock; occupied slots are locked',()=>{
  let s=initialState();assert.throws(()=>commitSkill(s,'天空的故事'));s.progress['天空的故事'].level=3;s.unlocked.push('鸟鸣学:7');assert.throws(()=>commitSkill(s,'天空的故事'),/需要 7 级/);
