@@ -22,12 +22,14 @@ export function previewMove(state:State,id:string,target:Slot):MoveResult {
  if(!byId[id]||!validSlot(target))return fail('无效的技能或位置');
  if(state.progress[id].actual)return fail('该技能已实际上树，不能调换位置');
  if(!soulFor(id,target.branch))return fail('该技能不支持这个分支');
+ if(target.branch!==byId[id].original.branch)return fail(`「${byId[id].name}」只能呈递到 Excel 安排的「${byId[id].original.branch}」`);
  if(sameSlot(state.plan[id],target))return fail('这就是当前计划位置');
  const actual=skills.find(s=>sameSlot(state.progress[s.id].actual,target));
  if(actual)return fail(`此位置已由「${actual.name}」实际上树占用`);
  const displaced=skills.find(s=>sameSlot(state.plan[s.id],target));
  if(displaced&&state.progress[displaced.id].actual)return fail('被替换技能已经上树');
  if(displaced&&!soulFor(displaced.id,state.plan[id].branch))return fail(`「${displaced.name}」不能放入${state.plan[id].branch}，无法直接互换`);
+ if(displaced&&byId[displaced.id].original.branch!==state.plan[id].branch)return fail(`「${displaced.name}」只能呈递到 Excel 安排的「${byId[displaced.id].original.branch}」，无法互换`);
  const warnings:string[]=[];
  for(const [who,dest] of [[id,target],...(displaced?[[displaced.id,state.plan[id]]]:[])] as [string,Slot][]){
   const p=state.progress[who];
@@ -47,6 +49,7 @@ export function commitProblems(state:State,id:string):string[]{
  const p=state.progress[id],slot=state.plan[id];const reasons:string[]=[];
  if(p.actual)reasons.push('已经记录上树');
  if(!soulFor(id,slot.branch))reasons.push('分支不兼容');
+ if(slot.branch!==byId[id].original.branch)reasons.push(`只能呈递到 Excel 安排的「${byId[id].original.branch}」`);
  if(p.level===null||p.level===0)reasons.push('先记录已获得和当前等级');
  else if(p.level<slot.rank)reasons.push(`需要 ${slot.rank} 级，当前 ${p.level} 级`);
  if(!state.unlocked.includes(slotKey(slot)))reasons.push('请按游戏画面确认该槽位已解锁');
