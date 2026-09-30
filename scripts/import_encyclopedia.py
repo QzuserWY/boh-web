@@ -90,6 +90,31 @@ for name,asp in {'明识':'灯2穹1','刚毅':'铸2刃1','灵躯':'引2蛾1','�
 guides=[('上树与调谐','每个技能有两条可选智慧分支，只能呈递一次。上树位置需要满足等级与槽位条件。本工具将未来计划和实际上树分开记录。已调谐表示已用该技能完成一次魂质进阶。','新手指南'),('魂质进阶','需要两个同种、同等级且未疲劳的魂质，以及已经呈递、收益匹配且未用过的技能。工作台必须接受投入的准则和物品；相应进阶条件可由工作台或回忆提供。仅分支相同不能保证可用。','魂质'),('教诲与技能升级','升级需要匹配技能准则的教诲，也可搭配匹配准则的其他回忆。百科中的制作强度 5、10、15 不是技能等级。','FAQ'),('制作与回忆','配方按准则强度分为 5、10、15 等门槛，高阶配方还可能要求指定材料。天气也能作为回忆使用；普通非存留回忆会在黎明消逝。','新手指南')]
 for name,body,page in guides:
     e=add('机制指南',name,'Wiki',page,{'规则摘要':body});e['wiki']='https://boh.huijiwiki.com/wiki/'+page
+supplement_path = ROOT / 'src/wiki-craft-additions.json'
+if supplement_path.exists():
+    extra = json.loads(supplement_path.read_text(encoding='utf-8'))
+    by_id = {e['id']: e for e in entries}
+    for c in extra.get('corrections', []):
+        e = by_id.get(c['id'])
+        if not e:
+            continue
+        if c.get('name'):
+            e['name'] = c['name']
+        if c.get('requirement'):
+            for f in e['fields']:
+                if f['label'] == '制作需求':
+                    f['value'] = c['requirement']
+        if c.get('removeFields'):
+            e['fields'] = [f for f in e['fields'] if f['label'] not in c['removeFields']]
+        for s in c.get('addSources', []):
+            if s not in e['sources']:
+                e['sources'].append(s)
+        if c.get('wiki'):
+            e['wiki'] = c['wiki']
+    have = {e['id'] for e in entries}
+    for e in extra.get('entries', []):
+        if e['id'] not in have:
+            entries.append(e)
 out=dict(entries=entries,counts=dict(Counter(e['category'] for e in entries)),source='司辰之书.xlsx',checked='2026-09-22')
 (ROOT/'src/encyclopedia-data.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
 print(out['counts']);print('Total',len(entries))

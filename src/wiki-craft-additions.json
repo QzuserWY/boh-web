@@ -1,0 +1,8286 @@
+{
+  "checked": "2026-09-30",
+  "note": "Excel 技艺表未覆盖的制作技艺。中文技能名沿用本项目与 https://boh.huijiwiki.com/wiki/模块:SignifierIdMap 。配方逐条来自对应英文 Fandom 技能页 Crafting/Item Creation 表（2026-09-30 抓取）；灰机中文站当时被 Cloudflare 拦截，故同时标注中文技能页以便对照。未在技能页出现的技艺不写入。",
+  "sources": [
+    "https://boh.huijiwiki.com/wiki/列表/技艺",
+    "https://boh.huijiwiki.com/wiki/曙光灵液",
+    "https://boh.huijiwiki.com/wiki/模块:SignifierIdMap",
+    "https://book-of-hours.fandom.com/wiki/Crafting"
+  ],
+  "corrections": [
+    {
+      "id": "技艺:I13:J13:原表未填写产物",
+      "name": "赤化精华",
+      "removeFields": [
+        "原表疑点"
+      ],
+      "addSources": [
+        "Wiki!嬗变与解放"
+      ],
+      "wiki": "https://boh.huijiwiki.com/wiki/嬗变与解放"
+    },
+    {
+      "id": "技艺:E26:F26:孔雀石圣餐",
+      "requirement": "蜜15 铜梨",
+      "removeFields": [
+        "原表疑点"
+      ],
+      "addSources": [
+        "Wiki!鼓点与舞步"
+      ],
+      "wiki": "https://boh.huijiwiki.com/wiki/鼓点与舞步"
+    }
+  ],
+  "entries": [
+    {
+      "id": "Wiki:混淆寓言:三重誓之仪:月5:仅强度",
+      "category": "制作配方",
+      "name": "混淆寓言",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "三重誓之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!三重誓之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "三重誓之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/三重誓之仪"
+    },
+    {
+      "id": "Wiki:湖兽:三重誓之仪:月10:卵",
+      "category": "制作配方",
+      "name": "湖兽",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "三重誓之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 卵"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!三重誓之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "三重誓之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/三重誓之仪"
+    },
+    {
+      "id": "Wiki:黑刚玉涂料:三重誓之仪:月15:阿苏麦",
+      "category": "制作配方",
+      "name": "黑刚玉涂料",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "三重誓之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "月15 阿苏麦"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!三重誓之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "三重誓之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/三重誓之仪"
+    },
+    {
+      "id": "Wiki:诱人旋律:三重誓之仪:杯5:仅强度",
+      "category": "制作配方",
+      "name": "诱人旋律",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "三重誓之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!三重誓之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "三重誓之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/三重誓之仪"
+    },
+    {
+      "id": "Wiki:苍白人偶:三重誓之仪:杯10:布料与丝缕",
+      "category": "制作配方",
+      "name": "苍白人偶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "三重誓之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯10 布料与丝缕"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!三重誓之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "三重誓之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/三重誓之仪"
+    },
+    {
+      "id": "Wiki:圣觚石圣餐:三重誓之仪:杯15:沉沦赤慧",
+      "category": "制作配方",
+      "name": "圣觚石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "三重誓之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯15 沉沦赤慧"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!三重誓之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "三重誓之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/三重誓之仪"
+    },
+    {
+      "id": "Wiki:石翠:三重誓之仪:蜜15:遗忘之水",
+      "category": "制作配方",
+      "name": "石翠",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "三重誓之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜15 遗忘之水"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!三重誓之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "三重誓之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/三重誓之仪"
+    },
+    {
+      "id": "Wiki:狼骑结印:丘陵与孔窍:鳞5:仅强度",
+      "category": "制作配方",
+      "name": "狼骑结印",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "丘陵与孔窍"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!丘陵与孔窍"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "丘陵与孔窍",
+      "wiki": "https://boh.huijiwiki.com/wiki/丘陵与孔窍"
+    },
+    {
+      "id": "Wiki:活化石:丘陵与孔窍:鳞10:卵",
+      "category": "制作配方",
+      "name": "活化石",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "丘陵与孔窍"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞10 卵"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!丘陵与孔窍"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "丘陵与孔窍",
+      "wiki": "https://boh.huijiwiki.com/wiki/丘陵与孔窍"
+    },
+    {
+      "id": "Wiki:震灾之名:丘陵与孔窍:鳞15:旧日时刻",
+      "category": "制作配方",
+      "name": "震灾之名",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "丘陵与孔窍"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞15 旧日时刻"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!丘陵与孔窍"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "丘陵与孔窍",
+      "wiki": "https://boh.huijiwiki.com/wiki/丘陵与孔窍"
+    },
+    {
+      "id": "Wiki:盐迹:丘陵与孔窍:月5:仅强度",
+      "category": "制作配方",
+      "name": "盐迹",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "丘陵与孔窍"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!丘陵与孔窍"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "丘陵与孔窍",
+      "wiki": "https://boh.huijiwiki.com/wiki/丘陵与孔窍"
+    },
+    {
+      "id": "Wiki:混种幼虫:丘陵与孔窍:月10:卵",
+      "category": "制作配方",
+      "name": "混种幼虫",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "丘陵与孔窍"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 卵"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!丘陵与孔窍"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "丘陵与孔窍",
+      "wiki": "https://boh.huijiwiki.com/wiki/丘陵与孔窍"
+    },
+    {
+      "id": "Wiki:混淆寓言:光明果悦音:穹5:仅强度",
+      "category": "制作配方",
+      "name": "混淆寓言",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "光明果悦音"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!光明果悦音"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "光明果悦音",
+      "wiki": "https://boh.huijiwiki.com/wiki/光明果悦音"
+    },
+    {
+      "id": "Wiki:方兴和声:光明果悦音:穹10:乐器",
+      "category": "制作配方",
+      "name": "方兴和声",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "光明果悦音"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 乐器"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!光明果悦音"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "光明果悦音",
+      "wiki": "https://boh.huijiwiki.com/wiki/光明果悦音"
+    },
+    {
+      "id": "Wiki:孪星降梦:光明果悦音:穹15:方兴和声",
+      "category": "制作配方",
+      "name": "孪星降梦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "光明果悦音"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹15 方兴和声"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!光明果悦音"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "光明果悦音",
+      "wiki": "https://boh.huijiwiki.com/wiki/光明果悦音"
+    },
+    {
+      "id": "Wiki:诱人旋律:光明果悦音:杯5:仅强度",
+      "category": "制作配方",
+      "name": "诱人旋律",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "光明果悦音"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!光明果悦音"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "光明果悦音",
+      "wiki": "https://boh.huijiwiki.com/wiki/光明果悦音"
+    },
+    {
+      "id": "Wiki:沉沦赤慧:光明果悦音:杯10:花",
+      "category": "制作配方",
+      "name": "沉沦赤慧",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "光明果悦音"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯10 花"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!光明果悦音"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "光明果悦音",
+      "wiki": "https://boh.huijiwiki.com/wiki/光明果悦音"
+    },
+    {
+      "id": "Wiki:圣觚石圣餐:光明果悦音:杯15:沉沦赤慧",
+      "category": "制作配方",
+      "name": "圣觚石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "光明果悦音"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯15 沉沦赤慧"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!光明果悦音"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "光明果悦音",
+      "wiki": "https://boh.huijiwiki.com/wiki/光明果悦音"
+    },
+    {
+      "id": "Wiki:巫魅药茶:兰花与迷药:杯5:仅强度",
+      "category": "制作配方",
+      "name": "巫魅药茶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "兰花与迷药"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!兰花与迷药"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "兰花与迷药",
+      "wiki": "https://boh.huijiwiki.com/wiki/兰花与迷药"
+    },
+    {
+      "id": "Wiki:沉沦赤慧:兰花与迷药:杯10:花",
+      "category": "制作配方",
+      "name": "沉沦赤慧",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "兰花与迷药"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯10 花"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!兰花与迷药"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "兰花与迷药",
+      "wiki": "https://boh.huijiwiki.com/wiki/兰花与迷药"
+    },
+    {
+      "id": "Wiki:圣觚石圣餐:兰花与迷药:杯15:沉沦赤慧",
+      "category": "制作配方",
+      "name": "圣觚石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "兰花与迷药"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯15 沉沦赤慧"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!兰花与迷药"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "兰花与迷药",
+      "wiki": "https://boh.huijiwiki.com/wiki/兰花与迷药"
+    },
+    {
+      "id": "Wiki:蒂尔扎利口酒:兰花与迷药:蜜5:仅强度",
+      "category": "制作配方",
+      "name": "蒂尔扎利口酒",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "兰花与迷药"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!兰花与迷药"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "兰花与迷药",
+      "wiki": "https://boh.huijiwiki.com/wiki/兰花与迷药"
+    },
+    {
+      "id": "Wiki:遗忘之水:兰花与迷药:蜜10:饮品",
+      "category": "制作配方",
+      "name": "遗忘之水",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "兰花与迷药"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜10 饮品"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!兰花与迷药"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "兰花与迷药",
+      "wiki": "https://boh.huijiwiki.com/wiki/兰花与迷药"
+    },
+    {
+      "id": "Wiki:狼骑结印:兽角与象牙:鳞5:仅强度",
+      "category": "制作配方",
+      "name": "狼骑结印",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "兽角与象牙"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!兽角与象牙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "兽角与象牙",
+      "wiki": "https://boh.huijiwiki.com/wiki/兽角与象牙"
+    },
+    {
+      "id": "Wiki:旧日时刻:兽角与象牙:鳞10:回忆",
+      "category": "制作配方",
+      "name": "旧日时刻",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "兽角与象牙"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!兽角与象牙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "兽角与象牙",
+      "wiki": "https://boh.huijiwiki.com/wiki/兽角与象牙"
+    },
+    {
+      "id": "Wiki:猃瘿墨:兽角与象牙:鳞15:活化石",
+      "category": "制作配方",
+      "name": "猃瘿墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "兽角与象牙"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞15 活化石"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!兽角与象牙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "兽角与象牙",
+      "wiki": "https://boh.huijiwiki.com/wiki/兽角与象牙"
+    },
+    {
+      "id": "Wiki:秘密门关:兽角与象牙:启5:仅强度",
+      "category": "制作配方",
+      "name": "秘密门关",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "兽角与象牙"
+        },
+        {
+          "label": "制作需求",
+          "value": "启5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!兽角与象牙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "兽角与象牙",
+      "wiki": "https://boh.huijiwiki.com/wiki/兽角与象牙"
+    },
+    {
+      "id": "Wiki:混种幼虫:兽角与象牙:启10:卵",
+      "category": "制作配方",
+      "name": "混种幼虫",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "兽角与象牙"
+        },
+        {
+          "label": "制作需求",
+          "value": "启10 卵"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!兽角与象牙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "兽角与象牙",
+      "wiki": "https://boh.huijiwiki.com/wiki/兽角与象牙"
+    },
+    {
+      "id": "Wiki:斫解石圣餐:兽角与象牙:启15:透指毒素",
+      "category": "制作配方",
+      "name": "斫解石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "兽角与象牙"
+        },
+        {
+          "label": "制作需求",
+          "value": "启15 透指毒素"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!兽角与象牙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "兽角与象牙",
+      "wiki": "https://boh.huijiwiki.com/wiki/兽角与象牙"
+    },
+    {
+      "id": "Wiki:盐迹:力量之墨:引5:仅强度",
+      "category": "制作配方",
+      "name": "盐迹",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "力量之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "引5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!力量之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "力量之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/力量之墨"
+    },
+    {
+      "id": "Wiki:曙光灵液:力量之墨:引10:光源",
+      "category": "制作配方",
+      "name": "曙光灵液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "力量之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "引10 光源"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!力量之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "力量之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/力量之墨"
+    },
+    {
+      "id": "Wiki:贵紫:力量之墨:引15:曙光灵液",
+      "category": "制作配方",
+      "name": "贵紫",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "力量之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "引15 曙光灵液"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!力量之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "力量之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/力量之墨"
+    },
+    {
+      "id": "Wiki:深瞑墨:力量之墨:鳞5:仅强度",
+      "category": "制作配方",
+      "name": "深瞑墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "力量之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!力量之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "力量之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/力量之墨"
+    },
+    {
+      "id": "Wiki:凶匿墨:力量之墨:鳞10:叶",
+      "category": "制作配方",
+      "name": "凶匿墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "力量之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞10 叶"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!力量之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "力量之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/力量之墨"
+    },
+    {
+      "id": "Wiki:杉瘿墨:力量之墨:蜜5:仅强度",
+      "category": "制作配方",
+      "name": "杉瘿墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "力量之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!力量之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "力量之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/力量之墨"
+    },
+    {
+      "id": "Wiki:石翠:力量之墨:蜜15:遗忘之水",
+      "category": "制作配方",
+      "name": "石翠",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "力量之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜15 遗忘之水"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!力量之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "力量之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/力量之墨"
+    },
+    {
+      "id": "Wiki:星瘿墨:力量之墨:穹5:仅强度",
+      "category": "制作配方",
+      "name": "星瘿墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "力量之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!力量之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "力量之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/力量之墨"
+    },
+    {
+      "id": "Wiki:欢欣雌黄:力量之墨:铸15:赤化精华",
+      "category": "制作配方",
+      "name": "欢欣雌黄",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "力量之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸15 赤化精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!力量之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "力量之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/力量之墨"
+    },
+    {
+      "id": "Wiki:玻璃灵液:启示之墨:灯10:玻璃",
+      "category": "制作配方",
+      "name": "玻璃灵液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "启示之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯10 玻璃"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!启示之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "启示之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/启示之墨"
+    },
+    {
+      "id": "Wiki:珀金:启示之墨:灯15:黄化精华",
+      "category": "制作配方",
+      "name": "珀金",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "启示之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯15 黄化精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!启示之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "启示之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/启示之墨"
+    },
+    {
+      "id": "Wiki:阿苏麦:启示之墨:蛾10:液体",
+      "category": "制作配方",
+      "name": "阿苏麦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "启示之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!启示之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "启示之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/启示之墨"
+    },
+    {
+      "id": "Wiki:杉瘿墨:启示之墨:蜜5:仅强度",
+      "category": "制作配方",
+      "name": "杉瘿墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "启示之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!启示之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "启示之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/启示之墨"
+    },
+    {
+      "id": "Wiki:星瘿墨:启示之墨:穹5:仅强度",
+      "category": "制作配方",
+      "name": "星瘿墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "启示之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!启示之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "启示之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/启示之墨"
+    },
+    {
+      "id": "Wiki:贵紫:启示之墨:引15:曙光灵液",
+      "category": "制作配方",
+      "name": "贵紫",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "启示之墨"
+        },
+        {
+          "label": "制作需求",
+          "value": "引15 曙光灵液"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!启示之墨"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "启示之墨",
+      "wiki": "https://boh.huijiwiki.com/wiki/启示之墨"
+    },
+    {
+      "id": "Wiki:诳语缠结:复苏与羽化:蛾5:仅强度",
+      "category": "制作配方",
+      "name": "诳语缠结",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "复苏与羽化"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!复苏与羽化"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "复苏与羽化",
+      "wiki": "https://boh.huijiwiki.com/wiki/复苏与羽化"
+    },
+    {
+      "id": "Wiki:混种幼虫:复苏与羽化:蛾10:卵",
+      "category": "制作配方",
+      "name": "混种幼虫",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "复苏与羽化"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾10 卵"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!复苏与羽化"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "复苏与羽化",
+      "wiki": "https://boh.huijiwiki.com/wiki/复苏与羽化"
+    },
+    {
+      "id": "Wiki:凶匿成虫:复苏与羽化:蛾15:混种幼虫",
+      "category": "制作配方",
+      "name": "凶匿成虫",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "复苏与羽化"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾15 混种幼虫"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!复苏与羽化"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "复苏与羽化",
+      "wiki": "https://boh.huijiwiki.com/wiki/复苏与羽化"
+    },
+    {
+      "id": "Wiki:剥皮蜜酒:复苏与羽化:蛾15:杜鹃蜜",
+      "category": "制作配方",
+      "name": "剥皮蜜酒",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "复苏与羽化"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾15 杜鹃蜜"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!复苏与羽化"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "复苏与羽化",
+      "wiki": "https://boh.huijiwiki.com/wiki/复苏与羽化"
+    },
+    {
+      "id": "Wiki:诱人旋律:复苏与羽化:杯5:仅强度",
+      "category": "制作配方",
+      "name": "诱人旋律",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "复苏与羽化"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!复苏与羽化"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "复苏与羽化",
+      "wiki": "https://boh.huijiwiki.com/wiki/复苏与羽化"
+    },
+    {
+      "id": "Wiki:苍白人偶:复苏与羽化:杯10:布料与丝缕",
+      "category": "制作配方",
+      "name": "苍白人偶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "复苏与羽化"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯10 布料与丝缕"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!复苏与羽化"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "复苏与羽化",
+      "wiki": "https://boh.huijiwiki.com/wiki/复苏与羽化"
+    },
+    {
+      "id": "Wiki:靥红人偶:复苏与羽化:杯15:苍白人偶",
+      "category": "制作配方",
+      "name": "靥红人偶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "复苏与羽化"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯15 苍白人偶"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!复苏与羽化"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "复苏与羽化",
+      "wiki": "https://boh.huijiwiki.com/wiki/复苏与羽化"
+    },
+    {
+      "id": "Wiki:盐迹:大海的故事:月5:仅强度",
+      "category": "制作配方",
+      "name": "盐迹",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "大海的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!大海的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "大海的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/大海的故事"
+    },
+    {
+      "id": "Wiki:阿苏麦:大海的故事:月10:液体",
+      "category": "制作配方",
+      "name": "阿苏麦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "大海的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!大海的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "大海的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/大海的故事"
+    },
+    {
+      "id": "Wiki:黑刚玉涂料:大海的故事:月15:阿苏麦",
+      "category": "制作配方",
+      "name": "黑刚玉涂料",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "大海的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "月15 阿苏麦"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!大海的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "大海的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/大海的故事"
+    },
+    {
+      "id": "Wiki:巫魅药茶:大海的故事:杯5:仅强度",
+      "category": "制作配方",
+      "name": "巫魅药茶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "大海的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!大海的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "大海的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/大海的故事"
+    },
+    {
+      "id": "Wiki:苍白人偶:大海的故事:杯10:布料与丝缕",
+      "category": "制作配方",
+      "name": "苍白人偶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "大海的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯10 布料与丝缕"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!大海的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "大海的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/大海的故事"
+    },
+    {
+      "id": "Wiki:圣觚石圣餐:大海的故事:杯15:沉沦赤慧",
+      "category": "制作配方",
+      "name": "圣觚石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "大海的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯15 沉沦赤慧"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!大海的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "大海的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/大海的故事"
+    },
+    {
+      "id": "Wiki:野蛮颂歌:岩石的故事:鳞5:仅强度",
+      "category": "制作配方",
+      "name": "野蛮颂歌",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "岩石的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!岩石的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "岩石的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/岩石的故事"
+    },
+    {
+      "id": "Wiki:活化石:岩石的故事:鳞10:卵",
+      "category": "制作配方",
+      "name": "活化石",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "岩石的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞10 卵"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!岩石的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "岩石的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/岩石的故事"
+    },
+    {
+      "id": "Wiki:震灾之名:岩石的故事:鳞15:旧日时刻",
+      "category": "制作配方",
+      "name": "震灾之名",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "岩石的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞15 旧日时刻"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!岩石的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "岩石的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/岩石的故事"
+    },
+    {
+      "id": "Wiki:蒂尔扎利口酒:岩石的故事:蜜5:仅强度",
+      "category": "制作配方",
+      "name": "蒂尔扎利口酒",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "岩石的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!岩石的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "岩石的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/岩石的故事"
+    },
+    {
+      "id": "Wiki:骨本精华:岩石的故事:蜜10:残骸",
+      "category": "制作配方",
+      "name": "骨本精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "岩石的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜10 残骸"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!岩石的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "岩石的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/岩石的故事"
+    },
+    {
+      "id": "Wiki:孔雀石圣餐:岩石的故事:蜜15:骨本精华",
+      "category": "制作配方",
+      "name": "孔雀石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "岩石的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜15 骨本精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!岩石的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "岩石的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/岩石的故事"
+    },
+    {
+      "id": "Wiki:欢快小调:弦乐与歌谣:心5:仅强度",
+      "category": "制作配方",
+      "name": "欢快小调",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弦乐与歌谣"
+        },
+        {
+          "label": "制作需求",
+          "value": "心5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弦乐与歌谣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弦乐与歌谣",
+      "wiki": "https://boh.huijiwiki.com/wiki/弦乐与歌谣"
+    },
+    {
+      "id": "Wiki:轰雷之皮的赞歌:弦乐与歌谣:心10:乐器",
+      "category": "制作配方",
+      "name": "轰雷之皮的赞歌",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弦乐与歌谣"
+        },
+        {
+          "label": "制作需求",
+          "value": "心10 乐器"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弦乐与歌谣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弦乐与歌谣",
+      "wiki": "https://boh.huijiwiki.com/wiki/弦乐与歌谣"
+    },
+    {
+      "id": "Wiki:襁褓雷霆:弦乐与歌谣:心15:轰雷之皮的赞歌",
+      "category": "制作配方",
+      "name": "襁褓雷霆",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弦乐与歌谣"
+        },
+        {
+          "label": "制作需求",
+          "value": "心15 轰雷之皮的赞歌"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弦乐与歌谣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弦乐与歌谣",
+      "wiki": "https://boh.huijiwiki.com/wiki/弦乐与歌谣"
+    },
+    {
+      "id": "Wiki:怅惘曲调:弦乐与歌谣:穹5:仅强度",
+      "category": "制作配方",
+      "name": "怅惘曲调",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弦乐与歌谣"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弦乐与歌谣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弦乐与歌谣",
+      "wiki": "https://boh.huijiwiki.com/wiki/弦乐与歌谣"
+    },
+    {
+      "id": "Wiki:方兴和声:弦乐与歌谣:穹10:乐器",
+      "category": "制作配方",
+      "name": "方兴和声",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弦乐与歌谣"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 乐器"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弦乐与歌谣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弦乐与歌谣",
+      "wiki": "https://boh.huijiwiki.com/wiki/弦乐与歌谣"
+    },
+    {
+      "id": "Wiki:静待之风:弦乐与歌谣:穹15:马扎林横笛",
+      "category": "制作配方",
+      "name": "静待之风",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弦乐与歌谣"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹15 马扎林横笛"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弦乐与歌谣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弦乐与歌谣",
+      "wiki": "https://boh.huijiwiki.com/wiki/弦乐与歌谣"
+    },
+    {
+      "id": "Wiki:威斯考特的混合物:弧月的倒影:铸5:仅强度",
+      "category": "制作配方",
+      "name": "威斯考特的混合物",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弧月的倒影"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弧月的倒影"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弧月的倒影",
+      "wiki": "https://boh.huijiwiki.com/wiki/弧月的倒影"
+    },
+    {
+      "id": "Wiki:赤化精华:弧月的倒影:铸10:液体",
+      "category": "制作配方",
+      "name": "赤化精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弧月的倒影"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弧月的倒影"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弧月的倒影",
+      "wiki": "https://boh.huijiwiki.com/wiki/弧月的倒影"
+    },
+    {
+      "id": "Wiki:赤化精华:弧月的倒影:铸15:苦黑盐+黄化精华",
+      "category": "制作配方",
+      "name": "赤化精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弧月的倒影"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸15 苦黑盐/黄化精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弧月的倒影"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弧月的倒影",
+      "wiki": "https://boh.huijiwiki.com/wiki/弧月的倒影"
+    },
+    {
+      "id": "Wiki:阿佐特:弧月的倒影:铸15:山铜",
+      "category": "制作配方",
+      "name": "阿佐特",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弧月的倒影"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸15 山铜"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弧月的倒影"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弧月的倒影",
+      "wiki": "https://boh.huijiwiki.com/wiki/弧月的倒影"
+    },
+    {
+      "id": "Wiki:图格的净化术:弧月的倒影:刃5:仅强度",
+      "category": "制作配方",
+      "name": "图格的净化术",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弧月的倒影"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弧月的倒影"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弧月的倒影",
+      "wiki": "https://boh.huijiwiki.com/wiki/弧月的倒影"
+    },
+    {
+      "id": "Wiki:致胜之着:弧月的倒影:刃10:回忆",
+      "category": "制作配方",
+      "name": "致胜之着",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弧月的倒影"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弧月的倒影"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弧月的倒影",
+      "wiki": "https://boh.huijiwiki.com/wiki/弧月的倒影"
+    },
+    {
+      "id": "Wiki:蛇乳:弧月的倒影:刃15:凶匿墨",
+      "category": "制作配方",
+      "name": "蛇乳",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "弧月的倒影"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃15 凶匿墨"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!弧月的倒影"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "弧月的倒影",
+      "wiki": "https://boh.huijiwiki.com/wiki/弧月的倒影"
+    },
+    {
+      "id": "Wiki:雷根斯堡镇痛软膏:手术与放血:心5:仅强度",
+      "category": "制作配方",
+      "name": "雷根斯堡镇痛软膏",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "手术与放血"
+        },
+        {
+          "label": "制作需求",
+          "value": "心5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!手术与放血"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "手术与放血",
+      "wiki": "https://boh.huijiwiki.com/wiki/手术与放血"
+    },
+    {
+      "id": "Wiki:基甸的浸液:手术与放血:心10:液体",
+      "category": "制作配方",
+      "name": "基甸的浸液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "手术与放血"
+        },
+        {
+          "label": "制作需求",
+          "value": "心10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!手术与放血"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "手术与放血",
+      "wiki": "https://boh.huijiwiki.com/wiki/手术与放血"
+    },
+    {
+      "id": "Wiki:雅努略之血:手术与放血:心15:基甸的浸液",
+      "category": "制作配方",
+      "name": "雅努略之血",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "手术与放血"
+        },
+        {
+          "label": "制作需求",
+          "value": "心15 基甸的浸液"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!手术与放血"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "手术与放血",
+      "wiki": "https://boh.huijiwiki.com/wiki/手术与放血"
+    },
+    {
+      "id": "Wiki:紫晶安瓿瓶:手术与放血:启5:仅强度",
+      "category": "制作配方",
+      "name": "紫晶安瓿瓶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "手术与放血"
+        },
+        {
+          "label": "制作需求",
+          "value": "启5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!手术与放血"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "手术与放血",
+      "wiki": "https://boh.huijiwiki.com/wiki/手术与放血"
+    },
+    {
+      "id": "Wiki:透指毒素:手术与放血:启10:液体",
+      "category": "制作配方",
+      "name": "透指毒素",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "手术与放血"
+        },
+        {
+          "label": "制作需求",
+          "value": "启10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!手术与放血"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "手术与放血",
+      "wiki": "https://boh.huijiwiki.com/wiki/手术与放血"
+    },
+    {
+      "id": "Wiki:雅努略之血:手术与放血:启15:透指毒素",
+      "category": "制作配方",
+      "name": "雅努略之血",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "手术与放血"
+        },
+        {
+          "label": "制作需求",
+          "value": "启15 透指毒素"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!手术与放血"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "手术与放血",
+      "wiki": "https://boh.huijiwiki.com/wiki/手术与放血"
+    },
+    {
+      "id": "Wiki:雷根斯堡镇痛软膏:无侵之敕令:心5:仅强度",
+      "category": "制作配方",
+      "name": "雷根斯堡镇痛软膏",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无侵之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "心5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无侵之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无侵之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/无侵之敕令"
+    },
+    {
+      "id": "Wiki:基甸的浸液:无侵之敕令:心10:液体",
+      "category": "制作配方",
+      "name": "基甸的浸液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无侵之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "心10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无侵之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无侵之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/无侵之敕令"
+    },
+    {
+      "id": "Wiki:雅努略之血:无侵之敕令:心15:基甸的浸液",
+      "category": "制作配方",
+      "name": "雅努略之血",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无侵之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "心15 基甸的浸液"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无侵之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无侵之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/无侵之敕令"
+    },
+    {
+      "id": "Wiki:猫瞬墨:无侵之敕令:月5:仅强度",
+      "category": "制作配方",
+      "name": "猫瞬墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无侵之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无侵之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无侵之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/无侵之敕令"
+    },
+    {
+      "id": "Wiki:所罗门制剂:无侵之敕令:月10:花",
+      "category": "制作配方",
+      "name": "所罗门制剂",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无侵之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 花"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无侵之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无侵之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/无侵之敕令"
+    },
+    {
+      "id": "Wiki:苦艾之梦:无侵之敕令:月15:湖兽",
+      "category": "制作配方",
+      "name": "苦艾之梦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无侵之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "月15 湖兽"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无侵之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无侵之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/无侵之敕令"
+    },
+    {
+      "id": "Wiki:耀素:无敌太阳典仪:灯5:仅强度",
+      "category": "制作配方",
+      "name": "耀素",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无敌太阳典仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无敌太阳典仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无敌太阳典仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/无敌太阳典仪"
+    },
+    {
+      "id": "Wiki:玻璃灵液:无敌太阳典仪:灯10:玻璃",
+      "category": "制作配方",
+      "name": "玻璃灵液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无敌太阳典仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯10 玻璃"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无敌太阳典仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无敌太阳典仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/无敌太阳典仪"
+    },
+    {
+      "id": "Wiki:珀金:无敌太阳典仪:灯15:黄化精华",
+      "category": "制作配方",
+      "name": "珀金",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无敌太阳典仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯15 黄化精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无敌太阳典仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无敌太阳典仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/无敌太阳典仪"
+    },
+    {
+      "id": "Wiki:混淆寓言:无敌太阳典仪:穹5:仅强度",
+      "category": "制作配方",
+      "name": "混淆寓言",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无敌太阳典仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无敌太阳典仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无敌太阳典仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/无敌太阳典仪"
+    },
+    {
+      "id": "Wiki:马扎林横笛:无敌太阳典仪:穹10:木材",
+      "category": "制作配方",
+      "name": "马扎林横笛",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无敌太阳典仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 木材"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无敌太阳典仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无敌太阳典仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/无敌太阳典仪"
+    },
+    {
+      "id": "Wiki:静待之风:无敌太阳典仪:穹15:马扎林横笛",
+      "category": "制作配方",
+      "name": "静待之风",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "无敌太阳典仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹15 马扎林横笛"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!无敌太阳典仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "无敌太阳典仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/无敌太阳典仪"
+    },
+    {
+      "id": "Wiki:觉醒翎羽:景象与感知:穹5:仅强度",
+      "category": "制作配方",
+      "name": "觉醒翎羽",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "景象与感知"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!景象与感知"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "景象与感知",
+      "wiki": "https://boh.huijiwiki.com/wiki/景象与感知"
+    },
+    {
+      "id": "Wiki:曙光灵液:景象与感知:穹10:光源",
+      "category": "制作配方",
+      "name": "曙光灵液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "景象与感知"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 光源"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!景象与感知"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "景象与感知",
+      "wiki": "https://boh.huijiwiki.com/wiki/景象与感知"
+    },
+    {
+      "id": "Wiki:孪星降梦:景象与感知:穹15:方兴和声",
+      "category": "制作配方",
+      "name": "孪星降梦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "景象与感知"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹15 方兴和声"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!景象与感知"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "景象与感知",
+      "wiki": "https://boh.huijiwiki.com/wiki/景象与感知"
+    },
+    {
+      "id": "Wiki:本征灰酒:景象与感知:冬5:仅强度",
+      "category": "制作配方",
+      "name": "本征灰酒",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "景象与感知"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!景象与感知"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "景象与感知",
+      "wiki": "https://boh.huijiwiki.com/wiki/景象与感知"
+    },
+    {
+      "id": "Wiki:所罗门制剂:景象与感知:冬10:花",
+      "category": "制作配方",
+      "name": "所罗门制剂",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "景象与感知"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬10 花"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!景象与感知"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "景象与感知",
+      "wiki": "https://boh.huijiwiki.com/wiki/景象与感知"
+    },
+    {
+      "id": "Wiki:喉青:景象与感知:冬15:所罗门制剂",
+      "category": "制作配方",
+      "name": "喉青",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "景象与感知"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬15 所罗门制剂"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!景象与感知"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "景象与感知",
+      "wiki": "https://boh.huijiwiki.com/wiki/景象与感知"
+    },
+    {
+      "id": "Wiki:杉瘿墨:根系之仪:蜜5:仅强度",
+      "category": "制作配方",
+      "name": "杉瘿墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "根系之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!根系之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "根系之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/根系之仪"
+    },
+    {
+      "id": "Wiki:遗忘之水:根系之仪:蜜10:饮品",
+      "category": "制作配方",
+      "name": "遗忘之水",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "根系之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜10 饮品"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!根系之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "根系之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/根系之仪"
+    },
+    {
+      "id": "Wiki:孔雀石圣餐:根系之仪:蜜15:铜梨",
+      "category": "制作配方",
+      "name": "孔雀石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "根系之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜15 铜梨"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!根系之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "根系之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/根系之仪"
+    },
+    {
+      "id": "Wiki:诳语缠结:根系之仪:蛾5:仅强度",
+      "category": "制作配方",
+      "name": "诳语缠结",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "根系之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!根系之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "根系之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/根系之仪"
+    },
+    {
+      "id": "Wiki:命名日之谜:根系之仪:蛾10:回忆",
+      "category": "制作配方",
+      "name": "命名日之谜",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "根系之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!根系之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "根系之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/根系之仪"
+    },
+    {
+      "id": "Wiki:剥皮蜜酒:根系之仪:蛾15:蜂蜜+杜鹃蜜",
+      "category": "制作配方",
+      "name": "剥皮蜜酒",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "根系之仪"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾15 蜂蜜/杜鹃蜜"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!根系之仪"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "根系之仪",
+      "wiki": "https://boh.huijiwiki.com/wiki/根系之仪"
+    },
+    {
+      "id": "Wiki:狻猊酊:残破十字路:刃5:仅强度",
+      "category": "制作配方",
+      "name": "狻猊酊",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "残破十字路"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!残破十字路"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "残破十字路",
+      "wiki": "https://boh.huijiwiki.com/wiki/残破十字路"
+    },
+    {
+      "id": "Wiki:致胜之着:残破十字路:刃10:回忆",
+      "category": "制作配方",
+      "name": "致胜之着",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "残破十字路"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!残破十字路"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "残破十字路",
+      "wiki": "https://boh.huijiwiki.com/wiki/残破十字路"
+    },
+    {
+      "id": "Wiki:苦乐参半的必然:残破十字路:冬5:仅强度",
+      "category": "制作配方",
+      "name": "苦乐参半的必然",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "残破十字路"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!残破十字路"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "残破十字路",
+      "wiki": "https://boh.huijiwiki.com/wiki/残破十字路"
+    },
+    {
+      "id": "Wiki:所罗门制剂:残破十字路:冬10:花",
+      "category": "制作配方",
+      "name": "所罗门制剂",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "残破十字路"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬10 花"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!残破十字路"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "残破十字路",
+      "wiki": "https://boh.huijiwiki.com/wiki/残破十字路"
+    },
+    {
+      "id": "Wiki:年岁账簿:残破十字路:冬15:骨本精华",
+      "category": "制作配方",
+      "name": "年岁账簿",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "残破十字路"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬15 骨本精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!残破十字路"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "残破十字路",
+      "wiki": "https://boh.huijiwiki.com/wiki/残破十字路"
+    },
+    {
+      "id": "Wiki:喉青:残破十字路:冬15:透指毒素",
+      "category": "制作配方",
+      "name": "喉青",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "残破十字路"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬15 透指毒素"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!残破十字路"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "残破十字路",
+      "wiki": "https://boh.huijiwiki.com/wiki/残破十字路"
+    },
+    {
+      "id": "Wiki:觉醒翎羽:毛皮与羽翎:穹5:仅强度",
+      "category": "制作配方",
+      "name": "觉醒翎羽",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "毛皮与羽翎"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!毛皮与羽翎"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "毛皮与羽翎",
+      "wiki": "https://boh.huijiwiki.com/wiki/毛皮与羽翎"
+    },
+    {
+      "id": "Wiki:方兴和声:毛皮与羽翎:穹10:乐器",
+      "category": "制作配方",
+      "name": "方兴和声",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "毛皮与羽翎"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 乐器"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!毛皮与羽翎"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "毛皮与羽翎",
+      "wiki": "https://boh.huijiwiki.com/wiki/毛皮与羽翎"
+    },
+    {
+      "id": "Wiki:静待之风:毛皮与羽翎:穹15:马扎林横笛",
+      "category": "制作配方",
+      "name": "静待之风",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "毛皮与羽翎"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹15 马扎林横笛"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!毛皮与羽翎"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "毛皮与羽翎",
+      "wiki": "https://boh.huijiwiki.com/wiki/毛皮与羽翎"
+    },
+    {
+      "id": "Wiki:狼骑结印:毛皮与羽翎:鳞5:仅强度",
+      "category": "制作配方",
+      "name": "狼骑结印",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "毛皮与羽翎"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!毛皮与羽翎"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "毛皮与羽翎",
+      "wiki": "https://boh.huijiwiki.com/wiki/毛皮与羽翎"
+    },
+    {
+      "id": "Wiki:活化石:毛皮与羽翎:鳞10:卵",
+      "category": "制作配方",
+      "name": "活化石",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "毛皮与羽翎"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞10 卵"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!毛皮与羽翎"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "毛皮与羽翎",
+      "wiki": "https://boh.huijiwiki.com/wiki/毛皮与羽翎"
+    },
+    {
+      "id": "Wiki:靥红人偶:毛皮与羽翎:杯15:苍白人偶",
+      "category": "制作配方",
+      "name": "靥红人偶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "毛皮与羽翎"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯15 苍白人偶"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!毛皮与羽翎"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "毛皮与羽翎",
+      "wiki": "https://boh.huijiwiki.com/wiki/毛皮与羽翎"
+    },
+    {
+      "id": "Wiki:盐迹:沙的故事:引5:仅强度",
+      "category": "制作配方",
+      "name": "盐迹",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "沙的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "引5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!沙的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "沙的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/沙的故事"
+    },
+    {
+      "id": "Wiki:曙光灵液:沙的故事:引10:光源",
+      "category": "制作配方",
+      "name": "曙光灵液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "沙的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "引10 光源"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!沙的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "沙的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/沙的故事"
+    },
+    {
+      "id": "Wiki:贵紫:沙的故事:引15:曙光灵液",
+      "category": "制作配方",
+      "name": "贵紫",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "沙的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "引15 曙光灵液"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!沙的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "沙的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/沙的故事"
+    },
+    {
+      "id": "Wiki:极目远眺:沙的故事:引15:弥久映像",
+      "category": "制作配方",
+      "name": "极目远眺",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "沙的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "引15 弥久映像"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!沙的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "沙的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/沙的故事"
+    },
+    {
+      "id": "Wiki:猫瞬墨:沙的故事:月5:仅强度",
+      "category": "制作配方",
+      "name": "猫瞬墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "沙的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!沙的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "沙的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/沙的故事"
+    },
+    {
+      "id": "Wiki:湖兽:沙的故事:月10:卵",
+      "category": "制作配方",
+      "name": "湖兽",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "沙的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 卵"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!沙的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "沙的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/沙的故事"
+    },
+    {
+      "id": "Wiki:苦黑盐:洪钟与铜器:铸5:仅强度",
+      "category": "制作配方",
+      "name": "苦黑盐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "洪钟与铜器"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!洪钟与铜器"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "洪钟与铜器",
+      "wiki": "https://boh.huijiwiki.com/wiki/洪钟与铜器"
+    },
+    {
+      "id": "Wiki:山铜:洪钟与铜器:铸10:金属",
+      "category": "制作配方",
+      "name": "山铜",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "洪钟与铜器"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸10 金属"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!洪钟与铜器"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "洪钟与铜器",
+      "wiki": "https://boh.huijiwiki.com/wiki/洪钟与铜器"
+    },
+    {
+      "id": "Wiki:阿佐特:洪钟与铜器:铸15:山铜",
+      "category": "制作配方",
+      "name": "阿佐特",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "洪钟与铜器"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸15 山铜"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!洪钟与铜器"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "洪钟与铜器",
+      "wiki": "https://boh.huijiwiki.com/wiki/洪钟与铜器"
+    },
+    {
+      "id": "Wiki:怅惘曲调:洪钟与铜器:穹5:仅强度",
+      "category": "制作配方",
+      "name": "怅惘曲调",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "洪钟与铜器"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!洪钟与铜器"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "洪钟与铜器",
+      "wiki": "https://boh.huijiwiki.com/wiki/洪钟与铜器"
+    },
+    {
+      "id": "Wiki:方兴和声:洪钟与铜器:穹10:乐器",
+      "category": "制作配方",
+      "name": "方兴和声",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "洪钟与铜器"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 乐器"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!洪钟与铜器"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "洪钟与铜器",
+      "wiki": "https://boh.huijiwiki.com/wiki/洪钟与铜器"
+    },
+    {
+      "id": "Wiki:孪星降梦:洪钟与铜器:穹15:方兴和声",
+      "category": "制作配方",
+      "name": "孪星降梦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "洪钟与铜器"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹15 方兴和声"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!洪钟与铜器"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "洪钟与铜器",
+      "wiki": "https://boh.huijiwiki.com/wiki/洪钟与铜器"
+    },
+    {
+      "id": "Wiki:本征灰酒:淬火与熄焰:冬5:仅强度",
+      "category": "制作配方",
+      "name": "本征灰酒",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "淬火与熄焰"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!淬火与熄焰"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "淬火与熄焰",
+      "wiki": "https://boh.huijiwiki.com/wiki/淬火与熄焰"
+    },
+    {
+      "id": "Wiki:所罗门制剂:淬火与熄焰:冬10:花",
+      "category": "制作配方",
+      "name": "所罗门制剂",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "淬火与熄焰"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬10 花"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!淬火与熄焰"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "淬火与熄焰",
+      "wiki": "https://boh.huijiwiki.com/wiki/淬火与熄焰"
+    },
+    {
+      "id": "Wiki:雷根斯堡镇痛软膏:淬火与熄焰:心5:仅强度",
+      "category": "制作配方",
+      "name": "雷根斯堡镇痛软膏",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "淬火与熄焰"
+        },
+        {
+          "label": "制作需求",
+          "value": "心5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!淬火与熄焰"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "淬火与熄焰",
+      "wiki": "https://boh.huijiwiki.com/wiki/淬火与熄焰"
+    },
+    {
+      "id": "Wiki:基甸的浸液:淬火与熄焰:心10:液体",
+      "category": "制作配方",
+      "name": "基甸的浸液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "淬火与熄焰"
+        },
+        {
+          "label": "制作需求",
+          "value": "心10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!淬火与熄焰"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "淬火与熄焰",
+      "wiki": "https://boh.huijiwiki.com/wiki/淬火与熄焰"
+    },
+    {
+      "id": "Wiki:襁褓雷霆:淬火与熄焰:心15:峡湾纬编",
+      "category": "制作配方",
+      "name": "襁褓雷霆",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "淬火与熄焰"
+        },
+        {
+          "label": "制作需求",
+          "value": "心15 峡湾纬编"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!淬火与熄焰"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "淬火与熄焰",
+      "wiki": "https://boh.huijiwiki.com/wiki/淬火与熄焰"
+    },
+    {
+      "id": "Wiki:威斯考特的混合物:溶解与离析:蛾5:仅强度",
+      "category": "制作配方",
+      "name": "威斯考特的混合物",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "溶解与离析"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!溶解与离析"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "溶解与离析",
+      "wiki": "https://boh.huijiwiki.com/wiki/溶解与离析"
+    },
+    {
+      "id": "Wiki:命名日之谜:溶解与离析:蛾10:回忆",
+      "category": "制作配方",
+      "name": "命名日之谜",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "溶解与离析"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!溶解与离析"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "溶解与离析",
+      "wiki": "https://boh.huijiwiki.com/wiki/溶解与离析"
+    },
+    {
+      "id": "Wiki:剥皮蜜酒:溶解与离析:蛾15:杜鹃蜜+蜂蜜",
+      "category": "制作配方",
+      "name": "剥皮蜜酒",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "溶解与离析"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾15 杜鹃蜜/蜂蜜"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!溶解与离析"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "溶解与离析",
+      "wiki": "https://boh.huijiwiki.com/wiki/溶解与离析"
+    },
+    {
+      "id": "Wiki:紫晶安瓿瓶:溶解与离析:启5:仅强度",
+      "category": "制作配方",
+      "name": "紫晶安瓿瓶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "溶解与离析"
+        },
+        {
+          "label": "制作需求",
+          "value": "启5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!溶解与离析"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "溶解与离析",
+      "wiki": "https://boh.huijiwiki.com/wiki/溶解与离析"
+    },
+    {
+      "id": "Wiki:透指毒素:溶解与离析:启10:液体",
+      "category": "制作配方",
+      "name": "透指毒素",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "溶解与离析"
+        },
+        {
+          "label": "制作需求",
+          "value": "启10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!溶解与离析"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "溶解与离析",
+      "wiki": "https://boh.huijiwiki.com/wiki/溶解与离析"
+    },
+    {
+      "id": "Wiki:斫解石圣餐:溶解与离析:启15:透指毒素",
+      "category": "制作配方",
+      "name": "斫解石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "溶解与离析"
+        },
+        {
+          "label": "制作需求",
+          "value": "启15 透指毒素"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!溶解与离析"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "溶解与离析",
+      "wiki": "https://boh.huijiwiki.com/wiki/溶解与离析"
+    },
+    {
+      "id": "Wiki:威斯考特的混合物:焰篆体:铸5:仅强度",
+      "category": "制作配方",
+      "name": "威斯考特的混合物",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "焰篆体"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!焰篆体"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "焰篆体",
+      "wiki": "https://boh.huijiwiki.com/wiki/焰篆体"
+    },
+    {
+      "id": "Wiki:赤化精华:焰篆体:铸10:液体",
+      "category": "制作配方",
+      "name": "赤化精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "焰篆体"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!焰篆体"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "焰篆体",
+      "wiki": "https://boh.huijiwiki.com/wiki/焰篆体"
+    },
+    {
+      "id": "Wiki:阿佐特:焰篆体:铸15:山铜",
+      "category": "制作配方",
+      "name": "阿佐特",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "焰篆体"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸15 山铜"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!焰篆体"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "焰篆体",
+      "wiki": "https://boh.huijiwiki.com/wiki/焰篆体"
+    },
+    {
+      "id": "Wiki:蒂尔黛透镜:焰篆体:灯5:仅强度",
+      "category": "制作配方",
+      "name": "蒂尔黛透镜",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "焰篆体"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!焰篆体"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "焰篆体",
+      "wiki": "https://boh.huijiwiki.com/wiki/焰篆体"
+    },
+    {
+      "id": "Wiki:黄化精华:焰篆体:灯10:液体",
+      "category": "制作配方",
+      "name": "黄化精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "焰篆体"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!焰篆体"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "焰篆体",
+      "wiki": "https://boh.huijiwiki.com/wiki/焰篆体"
+    },
+    {
+      "id": "Wiki:阿夏廷:焰篆体:灯15:玻璃灵液",
+      "category": "制作配方",
+      "name": "阿夏廷",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "焰篆体"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯15 玻璃灵液"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!焰篆体"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "焰篆体",
+      "wiki": "https://boh.huijiwiki.com/wiki/焰篆体"
+    },
+    {
+      "id": "Wiki:午夜污点:狼的故事:月5:仅强度",
+      "category": "制作配方",
+      "name": "午夜污点",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "狼的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!狼的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "狼的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/狼的故事"
+    },
+    {
+      "id": "Wiki:骨本精华:狼的故事:月10:残骸",
+      "category": "制作配方",
+      "name": "骨本精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "狼的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 残骸"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!狼的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "狼的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/狼的故事"
+    },
+    {
+      "id": "Wiki:苦艾之梦:狼的故事:月15:湖兽",
+      "category": "制作配方",
+      "name": "苦艾之梦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "狼的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "月15 湖兽"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!狼的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "狼的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/狼的故事"
+    },
+    {
+      "id": "Wiki:狼骑结印:狼的故事:鳞5:仅强度",
+      "category": "制作配方",
+      "name": "狼骑结印",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "狼的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!狼的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "狼的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/狼的故事"
+    },
+    {
+      "id": "Wiki:旧日时刻:狼的故事:鳞10:回忆",
+      "category": "制作配方",
+      "name": "旧日时刻",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "狼的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!狼的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "狼的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/狼的故事"
+    },
+    {
+      "id": "Wiki:震灾之名:狼的故事:鳞15:旧日时刻",
+      "category": "制作配方",
+      "name": "震灾之名",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "狼的故事"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞15 旧日时刻"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!狼的故事"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "狼的故事",
+      "wiki": "https://boh.huijiwiki.com/wiki/狼的故事"
+    },
+    {
+      "id": "Wiki:蒂尔黛透镜:玻璃与锻光:灯5:仅强度",
+      "category": "制作配方",
+      "name": "蒂尔黛透镜",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃与锻光"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃与锻光"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃与锻光",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃与锻光"
+    },
+    {
+      "id": "Wiki:玻璃灵液:玻璃与锻光:灯10:玻璃",
+      "category": "制作配方",
+      "name": "玻璃灵液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃与锻光"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯10 玻璃"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃与锻光"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃与锻光",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃与锻光"
+    },
+    {
+      "id": "Wiki:阿夏廷:玻璃与锻光:灯15:玻璃灵液",
+      "category": "制作配方",
+      "name": "阿夏廷",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃与锻光"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯15 玻璃灵液"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃与锻光"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃与锻光",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃与锻光"
+    },
+    {
+      "id": "Wiki:珀金:玻璃与锻光:灯15:黄化精华",
+      "category": "制作配方",
+      "name": "珀金",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃与锻光"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯15 黄化精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃与锻光"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃与锻光",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃与锻光"
+    },
+    {
+      "id": "Wiki:蒂尔黛透镜:玻璃与锻光:穹5:仅强度",
+      "category": "制作配方",
+      "name": "蒂尔黛透镜",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃与锻光"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃与锻光"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃与锻光",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃与锻光"
+    },
+    {
+      "id": "Wiki:格维合金:玻璃与锻光:穹10:金属",
+      "category": "制作配方",
+      "name": "格维合金",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃与锻光"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 金属"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃与锻光"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃与锻光",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃与锻光"
+    },
+    {
+      "id": "Wiki:时键琴:玻璃与锻光:启15:格维合金",
+      "category": "制作配方",
+      "name": "时键琴",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃与锻光"
+        },
+        {
+          "label": "制作需求",
+          "value": "启15 格维合金"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃与锻光"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃与锻光",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃与锻光"
+    },
+    {
+      "id": "Wiki:紫晶安瓿瓶:玻璃吹制与容器制造:启5:仅强度",
+      "category": "制作配方",
+      "name": "紫晶安瓿瓶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃吹制与容器制造"
+        },
+        {
+          "label": "制作需求",
+          "value": "启5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃吹制与容器制造"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃吹制与容器制造",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃吹制与容器制造"
+    },
+    {
+      "id": "Wiki:山铜:玻璃吹制与容器制造:启10:金属",
+      "category": "制作配方",
+      "name": "山铜",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃吹制与容器制造"
+        },
+        {
+          "label": "制作需求",
+          "value": "启10 金属"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃吹制与容器制造"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃吹制与容器制造",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃吹制与容器制造"
+    },
+    {
+      "id": "Wiki:时键琴:玻璃吹制与容器制造:启15:格维合金",
+      "category": "制作配方",
+      "name": "时键琴",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃吹制与容器制造"
+        },
+        {
+          "label": "制作需求",
+          "value": "启15 格维合金"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃吹制与容器制造"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃吹制与容器制造",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃吹制与容器制造"
+    },
+    {
+      "id": "Wiki:斫解石圣餐:玻璃吹制与容器制造:启15:透指毒素",
+      "category": "制作配方",
+      "name": "斫解石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃吹制与容器制造"
+        },
+        {
+          "label": "制作需求",
+          "value": "启15 透指毒素"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃吹制与容器制造"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃吹制与容器制造",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃吹制与容器制造"
+    },
+    {
+      "id": "Wiki:蒂尔黛透镜:玻璃吹制与容器制造:穹5:仅强度",
+      "category": "制作配方",
+      "name": "蒂尔黛透镜",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃吹制与容器制造"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃吹制与容器制造"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃吹制与容器制造",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃吹制与容器制造"
+    },
+    {
+      "id": "Wiki:玻璃灵液:玻璃吹制与容器制造:穹10:玻璃",
+      "category": "制作配方",
+      "name": "玻璃灵液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃吹制与容器制造"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 玻璃"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃吹制与容器制造"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃吹制与容器制造",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃吹制与容器制造"
+    },
+    {
+      "id": "Wiki:阿夏廷:玻璃吹制与容器制造:穹15:玻璃灵液",
+      "category": "制作配方",
+      "name": "阿夏廷",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃吹制与容器制造"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹15 玻璃灵液"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃吹制与容器制造"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃吹制与容器制造",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃吹制与容器制造"
+    },
+    {
+      "id": "Wiki:蒂尔黛透镜:玻璃吹制与容器制造:灯5:仅强度",
+      "category": "制作配方",
+      "name": "蒂尔黛透镜",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃吹制与容器制造"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃吹制与容器制造"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃吹制与容器制造",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃吹制与容器制造"
+    },
+    {
+      "id": "Wiki:玻璃灵液:玻璃吹制与容器制造:灯10:玻璃",
+      "category": "制作配方",
+      "name": "玻璃灵液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃吹制与容器制造"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯10 玻璃"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃吹制与容器制造"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃吹制与容器制造",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃吹制与容器制造"
+    },
+    {
+      "id": "Wiki:阿夏廷:玻璃吹制与容器制造:灯15:玻璃灵液",
+      "category": "制作配方",
+      "name": "阿夏廷",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "玻璃吹制与容器制造"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯15 玻璃灵液"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!玻璃吹制与容器制造"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "玻璃吹制与容器制造",
+      "wiki": "https://boh.huijiwiki.com/wiki/玻璃吹制与容器制造"
+    },
+    {
+      "id": "Wiki:本征灰酒:疫疠之秘:月5:仅强度",
+      "category": "制作配方",
+      "name": "本征灰酒",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "疫疠之秘"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!疫疠之秘"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "疫疠之秘",
+      "wiki": "https://boh.huijiwiki.com/wiki/疫疠之秘"
+    },
+    {
+      "id": "Wiki:所罗门制剂:疫疠之秘:月10:花",
+      "category": "制作配方",
+      "name": "所罗门制剂",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "疫疠之秘"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 花"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!疫疠之秘"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "疫疠之秘",
+      "wiki": "https://boh.huijiwiki.com/wiki/疫疠之秘"
+    },
+    {
+      "id": "Wiki:雷根斯堡镇痛软膏:疫疠之秘:心5:仅强度",
+      "category": "制作配方",
+      "name": "雷根斯堡镇痛软膏",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "疫疠之秘"
+        },
+        {
+          "label": "制作需求",
+          "value": "心5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!疫疠之秘"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "疫疠之秘",
+      "wiki": "https://boh.huijiwiki.com/wiki/疫疠之秘"
+    },
+    {
+      "id": "Wiki:基甸的浸液:疫疠之秘:心10:液体",
+      "category": "制作配方",
+      "name": "基甸的浸液",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "疫疠之秘"
+        },
+        {
+          "label": "制作需求",
+          "value": "心10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!疫疠之秘"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "疫疠之秘",
+      "wiki": "https://boh.huijiwiki.com/wiki/疫疠之秘"
+    },
+    {
+      "id": "Wiki:雅努略之血:疫疠之秘:心15:基甸的浸液",
+      "category": "制作配方",
+      "name": "雅努略之血",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "疫疠之秘"
+        },
+        {
+          "label": "制作需求",
+          "value": "心15 基甸的浸液"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!疫疠之秘"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "疫疠之秘",
+      "wiki": "https://boh.huijiwiki.com/wiki/疫疠之秘"
+    },
+    {
+      "id": "Wiki:苦乐参半的必然:窥天术:月5:仅强度",
+      "category": "制作配方",
+      "name": "苦乐参半的必然",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "窥天术"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!窥天术"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "窥天术",
+      "wiki": "https://boh.huijiwiki.com/wiki/窥天术"
+    },
+    {
+      "id": "Wiki:阿苏麦:窥天术:月10:蒂尔黛透镜",
+      "category": "制作配方",
+      "name": "阿苏麦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "窥天术"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 蒂尔黛透镜"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!窥天术"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "窥天术",
+      "wiki": "https://boh.huijiwiki.com/wiki/窥天术"
+    },
+    {
+      "id": "Wiki:孪星降梦:窥天术:月15:阿苏麦",
+      "category": "制作配方",
+      "name": "孪星降梦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "窥天术"
+        },
+        {
+          "label": "制作需求",
+          "value": "月15 阿苏麦"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!窥天术"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "窥天术",
+      "wiki": "https://boh.huijiwiki.com/wiki/窥天术"
+    },
+    {
+      "id": "Wiki:怅惘曲调:窥天术:穹5:仅强度",
+      "category": "制作配方",
+      "name": "怅惘曲调",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "窥天术"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!窥天术"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "窥天术",
+      "wiki": "https://boh.huijiwiki.com/wiki/窥天术"
+    },
+    {
+      "id": "Wiki:马扎林横笛:窥天术:穹10:木材",
+      "category": "制作配方",
+      "name": "马扎林横笛",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "窥天术"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 木材"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!窥天术"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "窥天术",
+      "wiki": "https://boh.huijiwiki.com/wiki/窥天术"
+    },
+    {
+      "id": "Wiki:孪星降梦:窥天术:穹15:方兴和声",
+      "category": "制作配方",
+      "name": "孪星降梦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "窥天术"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹15 方兴和声"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!窥天术"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "窥天术",
+      "wiki": "https://boh.huijiwiki.com/wiki/窥天术"
+    },
+    {
+      "id": "Wiki:年岁账簿:窥天术:穹15:骨本精华",
+      "category": "制作配方",
+      "name": "年岁账簿",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "窥天术"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹15 骨本精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!窥天术"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "窥天术",
+      "wiki": "https://boh.huijiwiki.com/wiki/窥天术"
+    },
+    {
+      "id": "Wiki:苦乐参半的必然:窥天术:冬5:仅强度",
+      "category": "制作配方",
+      "name": "苦乐参半的必然",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "窥天术"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!窥天术"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "窥天术",
+      "wiki": "https://boh.huijiwiki.com/wiki/窥天术"
+    },
+    {
+      "id": "Wiki:图格的净化术:精炼与擢升:穹5:仅强度",
+      "category": "制作配方",
+      "name": "图格的净化术",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "精炼与擢升"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!精炼与擢升"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "精炼与擢升",
+      "wiki": "https://boh.huijiwiki.com/wiki/精炼与擢升"
+    },
+    {
+      "id": "Wiki:方兴和声:精炼与擢升:穹10:乐器",
+      "category": "制作配方",
+      "name": "方兴和声",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "精炼与擢升"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 乐器"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!精炼与擢升"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "精炼与擢升",
+      "wiki": "https://boh.huijiwiki.com/wiki/精炼与擢升"
+    },
+    {
+      "id": "Wiki:耀素:精炼与擢升:灯5:仅强度",
+      "category": "制作配方",
+      "name": "耀素",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "精炼与擢升"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!精炼与擢升"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "精炼与擢升",
+      "wiki": "https://boh.huijiwiki.com/wiki/精炼与擢升"
+    },
+    {
+      "id": "Wiki:黄化精华:精炼与擢升:灯10:液体",
+      "category": "制作配方",
+      "name": "黄化精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "精炼与擢升"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!精炼与擢升"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "精炼与擢升",
+      "wiki": "https://boh.huijiwiki.com/wiki/精炼与擢升"
+    },
+    {
+      "id": "Wiki:黄化精华:精炼与擢升:灯15:赤化精华+苦黑盐",
+      "category": "制作配方",
+      "name": "黄化精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "精炼与擢升"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯15 赤化精华/苦黑盐"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!精炼与擢升"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "精炼与擢升",
+      "wiki": "https://boh.huijiwiki.com/wiki/精炼与擢升"
+    },
+    {
+      "id": "Wiki:阿佐特:精炼与擢升:铸15:山铜",
+      "category": "制作配方",
+      "name": "阿佐特",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "精炼与擢升"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸15 山铜"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!精炼与擢升"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "精炼与擢升",
+      "wiki": "https://boh.huijiwiki.com/wiki/精炼与擢升"
+    },
+    {
+      "id": "Wiki:深瞑墨:缝合与装订:心5:仅强度",
+      "category": "制作配方",
+      "name": "深瞑墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "缝合与装订"
+        },
+        {
+          "label": "制作需求",
+          "value": "心5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!缝合与装订"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "缝合与装订",
+      "wiki": "https://boh.huijiwiki.com/wiki/缝合与装订"
+    },
+    {
+      "id": "Wiki:峡湾纬编:缝合与装订:心10:布料与丝缕",
+      "category": "制作配方",
+      "name": "峡湾纬编",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "缝合与装订"
+        },
+        {
+          "label": "制作需求",
+          "value": "心10 布料与丝缕"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!缝合与装订"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "缝合与装订",
+      "wiki": "https://boh.huijiwiki.com/wiki/缝合与装订"
+    },
+    {
+      "id": "Wiki:襁褓雷霆:缝合与装订:心15:峡湾纬编",
+      "category": "制作配方",
+      "name": "襁褓雷霆",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "缝合与装订"
+        },
+        {
+          "label": "制作需求",
+          "value": "心15 峡湾纬编"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "心": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!缝合与装订"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "缝合与装订",
+      "wiki": "https://boh.huijiwiki.com/wiki/缝合与装订"
+    },
+    {
+      "id": "Wiki:觉醒翎羽:缝合与装订:穹5:仅强度",
+      "category": "制作配方",
+      "name": "觉醒翎羽",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "缝合与装订"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!缝合与装订"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "缝合与装订",
+      "wiki": "https://boh.huijiwiki.com/wiki/缝合与装订"
+    },
+    {
+      "id": "Wiki:活化石:缝合与装订:穹10:卵",
+      "category": "制作配方",
+      "name": "活化石",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "缝合与装订"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 卵"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!缝合与装订"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "缝合与装订",
+      "wiki": "https://boh.huijiwiki.com/wiki/缝合与装订"
+    },
+    {
+      "id": "Wiki:命运纬编:缝合与装订:冬15:布料与丝缕",
+      "category": "制作配方",
+      "name": "命运纬编",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "缝合与装订"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬15 布料与丝缕"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!缝合与装订"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "缝合与装订",
+      "wiki": "https://boh.huijiwiki.com/wiki/缝合与装订"
+    },
+    {
+      "id": "Wiki:午夜污点:群蛇与毒液:月5:仅强度",
+      "category": "制作配方",
+      "name": "午夜污点",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "群蛇与毒液"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!群蛇与毒液"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "群蛇与毒液",
+      "wiki": "https://boh.huijiwiki.com/wiki/群蛇与毒液"
+    },
+    {
+      "id": "Wiki:湖兽:群蛇与毒液:月10:卵",
+      "category": "制作配方",
+      "name": "湖兽",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "群蛇与毒液"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 卵"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!群蛇与毒液"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "群蛇与毒液",
+      "wiki": "https://boh.huijiwiki.com/wiki/群蛇与毒液"
+    },
+    {
+      "id": "Wiki:斫解石圣餐:群蛇与毒液:月15:透指毒素",
+      "category": "制作配方",
+      "name": "斫解石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "群蛇与毒液"
+        },
+        {
+          "label": "制作需求",
+          "value": "月15 透指毒素"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!群蛇与毒液"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "群蛇与毒液",
+      "wiki": "https://boh.huijiwiki.com/wiki/群蛇与毒液"
+    },
+    {
+      "id": "Wiki:狼骑结印:群蛇与毒液:鳞5:仅强度",
+      "category": "制作配方",
+      "name": "狼骑结印",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "群蛇与毒液"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!群蛇与毒液"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "群蛇与毒液",
+      "wiki": "https://boh.huijiwiki.com/wiki/群蛇与毒液"
+    },
+    {
+      "id": "Wiki:透指毒素:群蛇与毒液:鳞10:液体",
+      "category": "制作配方",
+      "name": "透指毒素",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "群蛇与毒液"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!群蛇与毒液"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "群蛇与毒液",
+      "wiki": "https://boh.huijiwiki.com/wiki/群蛇与毒液"
+    },
+    {
+      "id": "Wiki:蛇乳:群蛇与毒液:鳞15:凶匿墨",
+      "category": "制作配方",
+      "name": "蛇乳",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "群蛇与毒液"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞15 凶匿墨"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!群蛇与毒液"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "群蛇与毒液",
+      "wiki": "https://boh.huijiwiki.com/wiki/群蛇与毒液"
+    },
+    {
+      "id": "Wiki:杉瘿墨:腐化与煅烧:冬5:仅强度",
+      "category": "制作配方",
+      "name": "杉瘿墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "腐化与煅烧"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!腐化与煅烧"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "腐化与煅烧",
+      "wiki": "https://boh.huijiwiki.com/wiki/腐化与煅烧"
+    },
+    {
+      "id": "Wiki:凶匿墨:腐化与煅烧:冬10:叶",
+      "category": "制作配方",
+      "name": "凶匿墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "腐化与煅烧"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬10 叶"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!腐化与煅烧"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "腐化与煅烧",
+      "wiki": "https://boh.huijiwiki.com/wiki/腐化与煅烧"
+    },
+    {
+      "id": "Wiki:年岁账簿:腐化与煅烧:冬15:骨本精华",
+      "category": "制作配方",
+      "name": "年岁账簿",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "腐化与煅烧"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬15 骨本精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!腐化与煅烧"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "腐化与煅烧",
+      "wiki": "https://boh.huijiwiki.com/wiki/腐化与煅烧"
+    },
+    {
+      "id": "Wiki:猫瞬墨:腐化与煅烧:月5:仅强度",
+      "category": "制作配方",
+      "name": "猫瞬墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "腐化与煅烧"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!腐化与煅烧"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "腐化与煅烧",
+      "wiki": "https://boh.huijiwiki.com/wiki/腐化与煅烧"
+    },
+    {
+      "id": "Wiki:阿苏麦:腐化与煅烧:月10:液体",
+      "category": "制作配方",
+      "name": "阿苏麦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "腐化与煅烧"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!腐化与煅烧"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "腐化与煅烧",
+      "wiki": "https://boh.huijiwiki.com/wiki/腐化与煅烧"
+    },
+    {
+      "id": "Wiki:黑刚玉涂料:腐化与煅烧:月15:阿苏麦",
+      "category": "制作配方",
+      "name": "黑刚玉涂料",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "腐化与煅烧"
+        },
+        {
+          "label": "制作需求",
+          "value": "月15 阿苏麦"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!腐化与煅烧"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "腐化与煅烧",
+      "wiki": "https://boh.huijiwiki.com/wiki/腐化与煅烧"
+    },
+    {
+      "id": "Wiki:狼骑结印:虬蟠与裂隙:鳞5:仅强度",
+      "category": "制作配方",
+      "name": "狼骑结印",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "虬蟠与裂隙"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!虬蟠与裂隙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "虬蟠与裂隙",
+      "wiki": "https://boh.huijiwiki.com/wiki/虬蟠与裂隙"
+    },
+    {
+      "id": "Wiki:旧日时刻:虬蟠与裂隙:鳞10:回忆",
+      "category": "制作配方",
+      "name": "旧日时刻",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "虬蟠与裂隙"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!虬蟠与裂隙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "虬蟠与裂隙",
+      "wiki": "https://boh.huijiwiki.com/wiki/虬蟠与裂隙"
+    },
+    {
+      "id": "Wiki:震灾之名:虬蟠与裂隙:鳞15:旧日时刻",
+      "category": "制作配方",
+      "name": "震灾之名",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "虬蟠与裂隙"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞15 旧日时刻"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!虬蟠与裂隙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "虬蟠与裂隙",
+      "wiki": "https://boh.huijiwiki.com/wiki/虬蟠与裂隙"
+    },
+    {
+      "id": "Wiki:蒂尔扎利口酒:虬蟠与裂隙:蜜5:仅强度",
+      "category": "制作配方",
+      "name": "蒂尔扎利口酒",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "虬蟠与裂隙"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!虬蟠与裂隙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "虬蟠与裂隙",
+      "wiki": "https://boh.huijiwiki.com/wiki/虬蟠与裂隙"
+    },
+    {
+      "id": "Wiki:铜梨:虬蟠与裂隙:蜜10:木材",
+      "category": "制作配方",
+      "name": "铜梨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "虬蟠与裂隙"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜10 木材"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!虬蟠与裂隙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "虬蟠与裂隙",
+      "wiki": "https://boh.huijiwiki.com/wiki/虬蟠与裂隙"
+    },
+    {
+      "id": "Wiki:孔雀石圣餐:虬蟠与裂隙:蜜15:铜梨",
+      "category": "制作配方",
+      "name": "孔雀石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "虬蟠与裂隙"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜15 铜梨"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!虬蟠与裂隙"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "虬蟠与裂隙",
+      "wiki": "https://boh.huijiwiki.com/wiki/虬蟠与裂隙"
+    },
+    {
+      "id": "Wiki:巫魅药茶:诱惑与消殒:杯5:仅强度",
+      "category": "制作配方",
+      "name": "巫魅药茶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "诱惑与消殒"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!诱惑与消殒"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "诱惑与消殒",
+      "wiki": "https://boh.huijiwiki.com/wiki/诱惑与消殒"
+    },
+    {
+      "id": "Wiki:沉沦赤慧:诱惑与消殒:杯10:花",
+      "category": "制作配方",
+      "name": "沉沦赤慧",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "诱惑与消殒"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯10 花"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!诱惑与消殒"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "诱惑与消殒",
+      "wiki": "https://boh.huijiwiki.com/wiki/诱惑与消殒"
+    },
+    {
+      "id": "Wiki:靥红人偶:诱惑与消殒:杯15:苍白人偶",
+      "category": "制作配方",
+      "name": "靥红人偶",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "诱惑与消殒"
+        },
+        {
+          "label": "制作需求",
+          "value": "杯15 苍白人偶"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "杯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!诱惑与消殒"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "诱惑与消殒",
+      "wiki": "https://boh.huijiwiki.com/wiki/诱惑与消殒"
+    },
+    {
+      "id": "Wiki:午夜污点:诱惑与消殒:月5:仅强度",
+      "category": "制作配方",
+      "name": "午夜污点",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "诱惑与消殒"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!诱惑与消殒"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "诱惑与消殒",
+      "wiki": "https://boh.huijiwiki.com/wiki/诱惑与消殒"
+    },
+    {
+      "id": "Wiki:铜梨:诱惑与消殒:月10:木材",
+      "category": "制作配方",
+      "name": "铜梨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "诱惑与消殒"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 木材"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!诱惑与消殒"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "诱惑与消殒",
+      "wiki": "https://boh.huijiwiki.com/wiki/诱惑与消殒"
+    },
+    {
+      "id": "Wiki:黑刚玉涂料:诱惑与消殒:月15:阿苏麦",
+      "category": "制作配方",
+      "name": "黑刚玉涂料",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "诱惑与消殒"
+        },
+        {
+          "label": "制作需求",
+          "value": "月15 阿苏麦"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!诱惑与消殒"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "诱惑与消殒",
+      "wiki": "https://boh.huijiwiki.com/wiki/诱惑与消殒"
+    },
+    {
+      "id": "Wiki:盐迹:道途与朝圣:引5:仅强度",
+      "category": "制作配方",
+      "name": "盐迹",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "道途与朝圣"
+        },
+        {
+          "label": "制作需求",
+          "value": "引5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!道途与朝圣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "道途与朝圣",
+      "wiki": "https://boh.huijiwiki.com/wiki/道途与朝圣"
+    },
+    {
+      "id": "Wiki:弥久映像:道途与朝圣:引10:回忆",
+      "category": "制作配方",
+      "name": "弥久映像",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "道途与朝圣"
+        },
+        {
+          "label": "制作需求",
+          "value": "引10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!道途与朝圣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "道途与朝圣",
+      "wiki": "https://boh.huijiwiki.com/wiki/道途与朝圣"
+    },
+    {
+      "id": "Wiki:极目远眺:道途与朝圣:引15:弥久映像",
+      "category": "制作配方",
+      "name": "极目远眺",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "道途与朝圣"
+        },
+        {
+          "label": "制作需求",
+          "value": "引15 弥久映像"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!道途与朝圣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "道途与朝圣",
+      "wiki": "https://boh.huijiwiki.com/wiki/道途与朝圣"
+    },
+    {
+      "id": "Wiki:狼骑结印:道途与朝圣:鳞5:仅强度",
+      "category": "制作配方",
+      "name": "狼骑结印",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "道途与朝圣"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!道途与朝圣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "道途与朝圣",
+      "wiki": "https://boh.huijiwiki.com/wiki/道途与朝圣"
+    },
+    {
+      "id": "Wiki:旧日时刻:道途与朝圣:鳞10:回忆",
+      "category": "制作配方",
+      "name": "旧日时刻",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "道途与朝圣"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!道途与朝圣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "道途与朝圣",
+      "wiki": "https://boh.huijiwiki.com/wiki/道途与朝圣"
+    },
+    {
+      "id": "Wiki:猃瘿墨:道途与朝圣:鳞15:活化石",
+      "category": "制作配方",
+      "name": "猃瘿墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "道途与朝圣"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞15 活化石"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!道途与朝圣"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "道途与朝圣",
+      "wiki": "https://boh.huijiwiki.com/wiki/道途与朝圣"
+    },
+    {
+      "id": "Wiki:图格的净化术:锋锐:刃5:仅强度",
+      "category": "制作配方",
+      "name": "图格的净化术",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锋锐"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锋锐"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锋锐",
+      "wiki": "https://boh.huijiwiki.com/wiki/锋锐"
+    },
+    {
+      "id": "Wiki:致胜之着:锋锐:刃10:回忆",
+      "category": "制作配方",
+      "name": "致胜之着",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锋锐"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锋锐"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锋锐",
+      "wiki": "https://boh.huijiwiki.com/wiki/锋锐"
+    },
+    {
+      "id": "Wiki:蛇乳:锋锐:刃15:凶匿墨",
+      "category": "制作配方",
+      "name": "蛇乳",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锋锐"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃15 凶匿墨"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锋锐"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锋锐",
+      "wiki": "https://boh.huijiwiki.com/wiki/锋锐"
+    },
+    {
+      "id": "Wiki:午夜污点:锋锐:月5:仅强度",
+      "category": "制作配方",
+      "name": "午夜污点",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锋锐"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锋锐"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锋锐",
+      "wiki": "https://boh.huijiwiki.com/wiki/锋锐"
+    },
+    {
+      "id": "Wiki:骨本精华:锋锐:月10:残骸",
+      "category": "制作配方",
+      "name": "骨本精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锋锐"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 残骸"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锋锐"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锋锐",
+      "wiki": "https://boh.huijiwiki.com/wiki/锋锐"
+    },
+    {
+      "id": "Wiki:狻猊酊:锤砧的戒律:刃5:仅强度",
+      "category": "制作配方",
+      "name": "狻猊酊",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锤砧的戒律"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锤砧的戒律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锤砧的戒律",
+      "wiki": "https://boh.huijiwiki.com/wiki/锤砧的戒律"
+    },
+    {
+      "id": "Wiki:致胜之着:锤砧的戒律:刃10:回忆",
+      "category": "制作配方",
+      "name": "致胜之着",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锤砧的戒律"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锤砧的戒律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锤砧的戒律",
+      "wiki": "https://boh.huijiwiki.com/wiki/锤砧的戒律"
+    },
+    {
+      "id": "Wiki:无敌勇莽:锤砧的戒律:刃15:致胜之着",
+      "category": "制作配方",
+      "name": "无敌勇莽",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锤砧的戒律"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃15 致胜之着"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锤砧的戒律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锤砧的戒律",
+      "wiki": "https://boh.huijiwiki.com/wiki/锤砧的戒律"
+    },
+    {
+      "id": "Wiki:苦黑盐:锤砧的戒律:铸5:仅强度",
+      "category": "制作配方",
+      "name": "苦黑盐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锤砧的戒律"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锤砧的戒律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锤砧的戒律",
+      "wiki": "https://boh.huijiwiki.com/wiki/锤砧的戒律"
+    },
+    {
+      "id": "Wiki:山铜:锤砧的戒律:铸10:金属",
+      "category": "制作配方",
+      "name": "山铜",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锤砧的戒律"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸10 金属"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锤砧的戒律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锤砧的戒律",
+      "wiki": "https://boh.huijiwiki.com/wiki/锤砧的戒律"
+    },
+    {
+      "id": "Wiki:赤化精华:锤砧的戒律:铸15:苦黑盐",
+      "category": "制作配方",
+      "name": "赤化精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锤砧的戒律"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸15 苦黑盐"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锤砧的戒律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锤砧的戒律",
+      "wiki": "https://boh.huijiwiki.com/wiki/锤砧的戒律"
+    },
+    {
+      "id": "Wiki:阿佐特:锤砧的戒律:铸15:山铜",
+      "category": "制作配方",
+      "name": "阿佐特",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锤砧的戒律"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸15 山铜"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锤砧的戒律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锤砧的戒律",
+      "wiki": "https://boh.huijiwiki.com/wiki/锤砧的戒律"
+    },
+    {
+      "id": "Wiki:赤化精华:锤砧的戒律:铸15:黄化精华",
+      "category": "制作配方",
+      "name": "赤化精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "锤砧的戒律"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸15 黄化精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!锤砧的戒律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "锤砧的戒律",
+      "wiki": "https://boh.huijiwiki.com/wiki/锤砧的戒律"
+    },
+    {
+      "id": "Wiki:狻猊酊:镰刀与日蚀:刃5:仅强度",
+      "category": "制作配方",
+      "name": "狻猊酊",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "镰刀与日蚀"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!镰刀与日蚀"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "镰刀与日蚀",
+      "wiki": "https://boh.huijiwiki.com/wiki/镰刀与日蚀"
+    },
+    {
+      "id": "Wiki:凶匿墨:镰刀与日蚀:刃10:叶",
+      "category": "制作配方",
+      "name": "凶匿墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "镰刀与日蚀"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃10 叶"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!镰刀与日蚀"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "镰刀与日蚀",
+      "wiki": "https://boh.huijiwiki.com/wiki/镰刀与日蚀"
+    },
+    {
+      "id": "Wiki:蛇乳:镰刀与日蚀:刃15:凶匿墨",
+      "category": "制作配方",
+      "name": "蛇乳",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "镰刀与日蚀"
+        },
+        {
+          "label": "制作需求",
+          "value": "刃15 凶匿墨"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "刃": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!镰刀与日蚀"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "镰刀与日蚀",
+      "wiki": "https://boh.huijiwiki.com/wiki/镰刀与日蚀"
+    },
+    {
+      "id": "Wiki:猫瞬墨:镰刀与日蚀:月5:仅强度",
+      "category": "制作配方",
+      "name": "猫瞬墨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "镰刀与日蚀"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!镰刀与日蚀"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "镰刀与日蚀",
+      "wiki": "https://boh.huijiwiki.com/wiki/镰刀与日蚀"
+    },
+    {
+      "id": "Wiki:骨本精华:镰刀与日蚀:月10:残骸",
+      "category": "制作配方",
+      "name": "骨本精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "镰刀与日蚀"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 残骸"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!镰刀与日蚀"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "镰刀与日蚀",
+      "wiki": "https://boh.huijiwiki.com/wiki/镰刀与日蚀"
+    },
+    {
+      "id": "Wiki:苦艾之梦:镰刀与日蚀:月15:湖兽",
+      "category": "制作配方",
+      "name": "苦艾之梦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "镰刀与日蚀"
+        },
+        {
+          "label": "制作需求",
+          "value": "月15 湖兽"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!镰刀与日蚀"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "镰刀与日蚀",
+      "wiki": "https://boh.huijiwiki.com/wiki/镰刀与日蚀"
+    },
+    {
+      "id": "Wiki:诳语缠结:阈限之敕令:蛾5:仅强度",
+      "category": "制作配方",
+      "name": "诳语缠结",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阈限之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阈限之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阈限之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/阈限之敕令"
+    },
+    {
+      "id": "Wiki:命名日之谜:阈限之敕令:蛾10:回忆",
+      "category": "制作配方",
+      "name": "命名日之谜",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阈限之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阈限之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阈限之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/阈限之敕令"
+    },
+    {
+      "id": "Wiki:剥皮蜜酒:阈限之敕令:蛾15:蜂蜜+杜鹃蜜",
+      "category": "制作配方",
+      "name": "剥皮蜜酒",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阈限之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "蛾15 蜂蜜/杜鹃蜜"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蛾": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阈限之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阈限之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/阈限之敕令"
+    },
+    {
+      "id": "Wiki:秘密门关:阈限之敕令:启5:仅强度",
+      "category": "制作配方",
+      "name": "秘密门关",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阈限之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "启5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阈限之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阈限之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/阈限之敕令"
+    },
+    {
+      "id": "Wiki:透指毒素:阈限之敕令:启10:液体",
+      "category": "制作配方",
+      "name": "透指毒素",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阈限之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "启10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阈限之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阈限之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/阈限之敕令"
+    },
+    {
+      "id": "Wiki:斫解石圣餐:阈限之敕令:启15:透指毒素",
+      "category": "制作配方",
+      "name": "斫解石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阈限之敕令"
+        },
+        {
+          "label": "制作需求",
+          "value": "启15 透指毒素"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阈限之敕令"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阈限之敕令",
+      "wiki": "https://boh.huijiwiki.com/wiki/阈限之敕令"
+    },
+    {
+      "id": "Wiki:混淆寓言:阙前格律:引5:仅强度",
+      "category": "制作配方",
+      "name": "混淆寓言",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阙前格律"
+        },
+        {
+          "label": "制作需求",
+          "value": "引5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阙前格律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阙前格律",
+      "wiki": "https://boh.huijiwiki.com/wiki/阙前格律"
+    },
+    {
+      "id": "Wiki:弥久映像:阙前格律:引10:回忆",
+      "category": "制作配方",
+      "name": "弥久映像",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阙前格律"
+        },
+        {
+          "label": "制作需求",
+          "value": "引10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阙前格律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阙前格律",
+      "wiki": "https://boh.huijiwiki.com/wiki/阙前格律"
+    },
+    {
+      "id": "Wiki:极目远眺:阙前格律:引15:弥久映像",
+      "category": "制作配方",
+      "name": "极目远眺",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阙前格律"
+        },
+        {
+          "label": "制作需求",
+          "value": "引15 弥久映像"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "引": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阙前格律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阙前格律",
+      "wiki": "https://boh.huijiwiki.com/wiki/阙前格律"
+    },
+    {
+      "id": "Wiki:秘密门关:阙前格律:启5:仅强度",
+      "category": "制作配方",
+      "name": "秘密门关",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阙前格律"
+        },
+        {
+          "label": "制作需求",
+          "value": "启5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阙前格律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阙前格律",
+      "wiki": "https://boh.huijiwiki.com/wiki/阙前格律"
+    },
+    {
+      "id": "Wiki:罕奇直觉:阙前格律:启10:回忆",
+      "category": "制作配方",
+      "name": "罕奇直觉",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阙前格律"
+        },
+        {
+          "label": "制作需求",
+          "value": "启10 回忆"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阙前格律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阙前格律",
+      "wiki": "https://boh.huijiwiki.com/wiki/阙前格律"
+    },
+    {
+      "id": "Wiki:时键琴:阙前格律:启15:格维合金",
+      "category": "制作配方",
+      "name": "时键琴",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "阙前格律"
+        },
+        {
+          "label": "制作需求",
+          "value": "启15 格维合金"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "启": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!阙前格律"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "阙前格律",
+      "wiki": "https://boh.huijiwiki.com/wiki/阙前格律"
+    },
+    {
+      "id": "Wiki:觉醒翎羽:雕珀与琢石:穹5:仅强度",
+      "category": "制作配方",
+      "name": "觉醒翎羽",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "雕珀与琢石"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!雕珀与琢石"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "雕珀与琢石",
+      "wiki": "https://boh.huijiwiki.com/wiki/雕珀与琢石"
+    },
+    {
+      "id": "Wiki:黄化精华:雕珀与琢石:穹10:液体",
+      "category": "制作配方",
+      "name": "黄化精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "雕珀与琢石"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!雕珀与琢石"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "雕珀与琢石",
+      "wiki": "https://boh.huijiwiki.com/wiki/雕珀与琢石"
+    },
+    {
+      "id": "Wiki:阿夏廷:雕珀与琢石:穹15:玻璃灵液",
+      "category": "制作配方",
+      "name": "阿夏廷",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "雕珀与琢石"
+        },
+        {
+          "label": "制作需求",
+          "value": "穹15 玻璃灵液"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "穹": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!雕珀与琢石"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "雕珀与琢石",
+      "wiki": "https://boh.huijiwiki.com/wiki/雕珀与琢石"
+    },
+    {
+      "id": "Wiki:苦黑盐:雕珀与琢石:铸5:仅强度",
+      "category": "制作配方",
+      "name": "苦黑盐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "雕珀与琢石"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!雕珀与琢石"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "雕珀与琢石",
+      "wiki": "https://boh.huijiwiki.com/wiki/雕珀与琢石"
+    },
+    {
+      "id": "Wiki:赤化精华:雕珀与琢石:铸10:液体",
+      "category": "制作配方",
+      "name": "赤化精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "雕珀与琢石"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!雕珀与琢石"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "雕珀与琢石",
+      "wiki": "https://boh.huijiwiki.com/wiki/雕珀与琢石"
+    },
+    {
+      "id": "Wiki:欢欣雌黄:雕珀与琢石:铸15:赤化精华",
+      "category": "制作配方",
+      "name": "欢欣雌黄",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "雕珀与琢石"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸15 赤化精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!雕珀与琢石"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "雕珀与琢石",
+      "wiki": "https://boh.huijiwiki.com/wiki/雕珀与琢石"
+    },
+    {
+      "id": "Wiki:珀金:雕珀与琢石:灯15:黄化精华",
+      "category": "制作配方",
+      "name": "珀金",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "雕珀与琢石"
+        },
+        {
+          "label": "制作需求",
+          "value": "灯15 黄化精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "灯": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!雕珀与琢石"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "雕珀与琢石",
+      "wiki": "https://boh.huijiwiki.com/wiki/雕珀与琢石"
+    },
+    {
+      "id": "Wiki:苦乐参半的必然:音律与铭记:冬5:仅强度",
+      "category": "制作配方",
+      "name": "苦乐参半的必然",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "音律与铭记"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!音律与铭记"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "音律与铭记",
+      "wiki": "https://boh.huijiwiki.com/wiki/音律与铭记"
+    },
+    {
+      "id": "Wiki:骨本精华:音律与铭记:冬10:残骸",
+      "category": "制作配方",
+      "name": "骨本精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "音律与铭记"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬10 残骸"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!音律与铭记"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "音律与铭记",
+      "wiki": "https://boh.huijiwiki.com/wiki/音律与铭记"
+    },
+    {
+      "id": "Wiki:年岁账簿:音律与铭记:冬15:骨本精华",
+      "category": "制作配方",
+      "name": "年岁账簿",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "音律与铭记"
+        },
+        {
+          "label": "制作需求",
+          "value": "冬15 骨本精华"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "冬": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!音律与铭记"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "音律与铭记",
+      "wiki": "https://boh.huijiwiki.com/wiki/音律与铭记"
+    },
+    {
+      "id": "Wiki:午夜污点:音律与铭记:月5:仅强度",
+      "category": "制作配方",
+      "name": "午夜污点",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "音律与铭记"
+        },
+        {
+          "label": "制作需求",
+          "value": "月5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!音律与铭记"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "音律与铭记",
+      "wiki": "https://boh.huijiwiki.com/wiki/音律与铭记"
+    },
+    {
+      "id": "Wiki:湖兽:音律与铭记:月10:卵",
+      "category": "制作配方",
+      "name": "湖兽",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "音律与铭记"
+        },
+        {
+          "label": "制作需求",
+          "value": "月10 卵"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!音律与铭记"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "音律与铭记",
+      "wiki": "https://boh.huijiwiki.com/wiki/音律与铭记"
+    },
+    {
+      "id": "Wiki:苦艾之梦:音律与铭记:月15:湖兽",
+      "category": "制作配方",
+      "name": "苦艾之梦",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "音律与铭记"
+        },
+        {
+          "label": "制作需求",
+          "value": "月15 湖兽"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "月": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!音律与铭记"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "音律与铭记",
+      "wiki": "https://boh.huijiwiki.com/wiki/音律与铭记"
+    },
+    {
+      "id": "Wiki:蒂尔扎利口酒:香料与滋味:蜜5:仅强度",
+      "category": "制作配方",
+      "name": "蒂尔扎利口酒",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "香料与滋味"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!香料与滋味"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "香料与滋味",
+      "wiki": "https://boh.huijiwiki.com/wiki/香料与滋味"
+    },
+    {
+      "id": "Wiki:铜梨:香料与滋味:蜜10:木材",
+      "category": "制作配方",
+      "name": "铜梨",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "香料与滋味"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜10 木材"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!香料与滋味"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "香料与滋味",
+      "wiki": "https://boh.huijiwiki.com/wiki/香料与滋味"
+    },
+    {
+      "id": "Wiki:孔雀石圣餐:香料与滋味:蜜15:铜梨",
+      "category": "制作配方",
+      "name": "孔雀石圣餐",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "香料与滋味"
+        },
+        {
+          "label": "制作需求",
+          "value": "蜜15 铜梨"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "蜜": 15
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!香料与滋味"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "香料与滋味",
+      "wiki": "https://boh.huijiwiki.com/wiki/香料与滋味"
+    },
+    {
+      "id": "Wiki:威斯考特的混合物:香料与滋味:铸5:仅强度",
+      "category": "制作配方",
+      "name": "威斯考特的混合物",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "香料与滋味"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!香料与滋味"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "香料与滋味",
+      "wiki": "https://boh.huijiwiki.com/wiki/香料与滋味"
+    },
+    {
+      "id": "Wiki:赤化精华:香料与滋味:铸10:液体",
+      "category": "制作配方",
+      "name": "赤化精华",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "香料与滋味"
+        },
+        {
+          "label": "制作需求",
+          "value": "铸10 液体"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "铸": 10
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!香料与滋味"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "香料与滋味",
+      "wiki": "https://boh.huijiwiki.com/wiki/香料与滋味"
+    },
+    {
+      "id": "Wiki:野蛮颂歌:鼓点与舞步:鳞5:仅强度",
+      "category": "制作配方",
+      "name": "野蛮颂歌",
+      "fields": [
+        {
+          "label": "使用技能",
+          "value": "鼓点与舞步"
+        },
+        {
+          "label": "制作需求",
+          "value": "鳞5"
+        },
+        {
+          "label": "说明",
+          "value": "5 / 10 / 15 是准则强度要求，不是技能等级。据技能制作表补全，原表未列的技艺不臆测。"
+        }
+      ],
+      "aspects": {
+        "鳞": 5
+      },
+      "branches": [],
+      "sources": [
+        "Wiki!鼓点与舞步"
+      ],
+      "sections": [],
+      "spoiler": false,
+      "skillId": "鼓点与舞步",
+      "wiki": "https://boh.huijiwiki.com/wiki/鼓点与舞步"
+    }
+  ]
+}
