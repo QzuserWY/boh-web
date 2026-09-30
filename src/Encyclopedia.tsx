@@ -2,14 +2,14 @@ import LessonCode from './LessonCode';
 import {tiers,TierBadge,TierNote} from './tiers';
 import {useEffect,useRef,useState} from 'react';
 import {BookOpen,Search,X,ExternalLink,ArrowLeft,ArrowRight} from 'lucide-react';
-import {entries,categories,aspects,searchEntries,references,type Entry} from './encyclopedia-model';
+import {entries,categories,aspects,searchEntries,references,craftsOfSkill,skillsForProduct,encyclopediaTarget,recipeRequirement,type Entry} from './encyclopedia-model';
 import {branches,slotLabel,status,type State} from './model';
 import './encyclopedia.css';
-export default function Encyclopedia({state,onSkill,initialSkill}:{state:State;onSkill:(id:string)=>void;initialSkill:string|null}){
+export default function Encyclopedia({state,onSkill,focus}:{state:State;onSkill:(id:string)=>void;focus:{entryId:string|null;skillId:string|null;nonce:number}|null}){
  const [tier,setTier]=useState('');
  const [query,setQuery]=useState(''),[category,setCategory]=useState('全部'),[aspect,setAspect]=useState(''),[branch,setBranch]=useState(''),[spoilers,setSpoilers]=useState(false),[limit,setLimit]=useState(36),[selected,setSelected]=useState<Entry|null>(null),[trail,setTrail]=useState<Entry[]>([]);
  const search=useRef<HTMLInputElement>(null),dialog=useRef<HTMLDialogElement>(null);
- useEffect(()=>{if(initialSkill)setSelected(entries.find(e=>e.category==='技能'&&e.skillId===initialSkill)??null);},[initialSkill]);
+ useEffect(()=>{if(!focus)return;const e=focus.entryId?entries.find(x=>x.id===focus.entryId):focus.skillId?entries.find(x=>x.category==='技能'&&x.skillId===focus.skillId):null;if(e){setTrail([]);setSelected(e);}},[focus]);
  useEffect(()=>{setLimit(36);},[query,category,aspect,branch,spoilers,tier]);
  useEffect(()=>{if(selected){dialog.current?.showModal();dialog.current?.scrollTo(0,0);}else dialog.current?.close();},[selected]);
  const results=searchEntries(query,category,aspect,branch,spoilers).filter(e=>!tier||(e.category==='技能'&&tiers[e.skillId??'']===tier));
@@ -17,7 +17,7 @@ export default function Encyclopedia({state,onSkill,initialSkill}:{state:State;o
  function close(){setSelected(null);setTrail([]);}
  function clear(){setTier('');setQuery('');setCategory('全部');setAspect('');setBranch('');}
  return <section className="workspace encyclopedia"><div className="page-heading"><div><div className="eyebrow">THE LIBRARIAN’S COMPENDIUM</div><h1>图书管理员百科</h1><p>查找回忆、制作与进阶线索，随时回到你的技能计划。</p></div><BookOpen size={36} className="book-emblem"/></div>
- <div className="ency-source"><span>{entries.length} 条本地资料 · Excel + Wiki 规则摘要</span><span>资料整理于 2026-09-22 · 非完整 Wiki 镜像</span></div>
+ <div className="ency-source"><span>{entries.length} 条本地资料 · Excel + Wiki 规则摘要</span><span>资料整理于 2026-09-22 · 制作技艺补至于 2026-09-30</span></div>
  <div className="toolbar"><label className="search"><Search size={19}/><input id="ency-search" ref={search} aria-label="搜索百科" placeholder="搜索名称、材料、获取方式… 多词用空格分隔" value={query} onChange={e=>setQuery(e.target.value)}/>{query&&<button className="icon-button" aria-label="清除百科搜索" onClick={()=>setQuery('')}><X size={16}/></button>}</label><select aria-label="百科准则" value={aspect} onChange={e=>setAspect(e.target.value)}><option value="">全部准则</option>{aspects.map(a=><option key={a}>{a}</option>)}</select><select aria-label="百科分支" value={branch} onChange={e=>setBranch(e.target.value)}><option value="">全部智慧分支</option>{branches.map(b=><option key={b}>{b}</option>)}</select><select aria-label="百科推荐评级" value={tier} onChange={e=>{setTier(e.target.value);if(e.target.value)setCategory('技能');}}><option value="">全部评级</option><option>T0</option><option>T1</option></select></div>
  <div className="ency-categories">{['全部',...categories].map(c=><button key={c} aria-pressed={category===c} className={category===c?'active':''} onClick={()=>setCategory(c)}>{c}<small>{entries.filter(e=>(c==='全部'||e.category===c)&&(spoilers||!e.spoiler)).length}</small></button>)}</div>
  <div className="ency-results"><span>找到 {results.length} 条资料</span><label><input type="checkbox" checked={spoilers} onChange={e=>setSpoilers(e.target.checked)}/>显示闰识剧透</label><button className="text-button" onClick={clear}>重置筛选</button></div>
@@ -29,6 +29,8 @@ export default function Encyclopedia({state,onSkill,initialSkill}:{state:State;o
  {selected.skillId&&state.progress[selected.skillId]&&<div className="ency-plan"><div><strong>你的技能记录 · {selected.skillId}</strong><p>{slotLabel(state.plan[selected.skillId])} · {status(state.progress[selected.skillId])}</p></div><button className="primary" onClick={()=>{close();onSkill(selected.skillId!);}}>查看／调整上树</button></div>}
  {selected.category==='技能'&&<LessonCode key={selected.id} id={selected.skillId??''}/>} {selected.category==='技能'&&<TierNote id={selected.skillId??''}/>}<dl className="ency-fields">{selected.fields.map((f,i)=><div key={i}><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>
  {selected.sections.map((s,i)=><section className="detail-section" key={i}><h3>{s.title}</h3><div className="table-scroll"><table><thead><tr>{s.columns.map((c,j)=><th key={j}>{c}</th>)}</tr></thead><tbody>{s.rows.map((r,k)=><tr key={k}>{r.map((v,j)=><td key={j}>{v||'—'}</td>)}</tr>)}</tbody></table></div></section>)}
+ {selected.category==='技能'&&craftsOfSkill(selected.skillId??'').length>0&&<section className="detail-section"><h3>可制作 <span>打开对应百科，不改变上树进度</span></h3><div className="ency-links">{craftsOfSkill(selected.skillId??'').map(recipe=>{const target=encyclopediaTarget(recipe);return <button key={recipe.id} onClick={()=>open(target)}><span>{target.category}</span>{recipe.name}<small>{recipeRequirement(recipe)}</small></button>;})}</div></section>}
+ {skillsForProduct(selected.name).length>0&&selected.category!=='技能'&&<section className="detail-section"><h3>制作此物的技能 <span>与配方条目一致</span></h3><div className="ency-links">{skillsForProduct(selected.name).map(recipe=>{const skill=entries.find(e=>e.category==='技能'&&e.skillId===recipe.skillId);return <button key={recipe.id} onClick={()=>skill&&open(skill)}><span>{recipeRequirement(recipe)}</span>{recipe.skillId}</button>;})}</div></section>}
  {references(selected,spoilers).length>0&&<section className="detail-section"><h3>关联资料 <span>同名、技能关联或原文提及</span></h3><div className="ency-links">{references(selected,spoilers).map(e=><button key={e.id} onClick={()=>open(e)}><span>{e.category}</span>{e.name}<ArrowRight size={14}/></button>)}</div></section>}
  <div className="ency-citations"><strong>资料来源</strong>{selected.sources.map(s=><span key={s}>{s.startsWith('Wiki!')?s.replace('Wiki!','Wiki · '):`司辰之书.xlsx · ${s}`}</span>)}<a target="_blank" rel="noreferrer" href={selected.wiki||`https://boh.huijiwiki.com/wiki/Special:Search?search=${encodeURIComponent(selected.skillId||selected.name)}`}>{selected.wiki?'阅读 Wiki 规则原文':'在 Wiki 检索此条目'}<ExternalLink size={13}/></a></div></div></>}</dialog>
  </section>;

@@ -13,3 +13,15 @@ export function searchEntries(query:string,category='全部',aspect='',branch=''
 export function references(entry:Entry,spoilers=false){
  return entries.filter(e=>e.id!==entry.id&&(spoilers||!e.spoiler)&&(e.name===entry.name||e.skillId&&e.skillId===entry.skillId||e.fields.some(f=>f.value.includes(entry.name))||e.sections.some(s=>s.rows.some(r=>r.some(v=>v.includes(entry.name))))));
 }
+const catalogCategories=new Set(['回忆','天气','物品工具','饮食']);
+export function recipeRequirement(entry:Entry){return entry.fields.find(f=>f.label==='制作需求')?.value??'';}
+export function craftsOfSkill(skillId:string){
+ return entries.filter(e=>e.category==='制作配方'&&e.skillId===skillId).sort((a,b)=>a.name.localeCompare(b.name,'zh')||recipeRequirement(a).localeCompare(recipeRequirement(b),'zh')||a.id.localeCompare(b.id));
+}
+export function skillsForProduct(name:string){
+ return entries.filter(e=>e.category==='制作配方'&&e.name===name&&!!e.skillId).sort((a,b)=>(a.skillId??'').localeCompare(b.skillId??'','zh')||recipeRequirement(a).localeCompare(recipeRequirement(b),'zh')||a.id.localeCompare(b.id));
+}
+/** Prefer the memory or item page; otherwise the recipe entry itself. */
+export function encyclopediaTarget(recipe:Entry){
+ return entries.find(e=>e.name===recipe.name&&catalogCategories.has(e.category)&&!e.spoiler)??entries.find(e=>e.name===recipe.name&&catalogCategories.has(e.category))??recipe;
+}
